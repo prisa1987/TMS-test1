@@ -1,0 +1,31 @@
+<ion-header>
+    <ion-navbar primary>
+        <button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>{{ "Companies" | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-list reorder={{isReorder}} (ionItemReorder)="reorderItems($event)">
+        <ion-item-sliding id="company" class="item-remove-animate item-icon-right" *ngFor="let company of companies | async">
+            <ion-item>
+                <ion-label>{{company.name}}
+                    <i class="icon ion-chevron-right icon-accessory" *ngIf="isReorder==false"></i>
+                </ion-label>
+            </ion-item>
+            <ion-item-options *ngIf="isReorder==false">
+                <button class="button-energized" (click)="navigateToRenameCompany(company)"> {{ "Rename" | translate }}</button>
+                <button class="button-assertive" (click)="removeCompany(company)">{{ "Delete" | translate }}</button>
+            </ion-item-options>
+        </ion-item-sliding>
+    </ion-list>
+</ion-content>
+<ion-footer class="bar bar-footer">
+    <a class="button halfButton bottom-big button-positive" (click)="navigateToCreatNewCompany()">
+      {{ "Add Company" | translate }}
+    </a>
+    <a class="button halfButton bottom-big" (click)="toggleReorder()">
+      {{ "Reorder" | translate }}
+    </a>
+</ion-footer>

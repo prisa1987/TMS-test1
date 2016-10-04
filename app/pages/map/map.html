@@ -1,0 +1,14 @@
+<ion-header>
+    <ion-navbar primary hideBackButton="false">
+        <button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>{{ "Map" | translate }} </ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content class="map-page">
+    <div #pleaseConnect id="please-connect">
+        <p>{{ "Please connect to the Internet..." | translate }}</p>
+    </div>
+    <div #map id="map"></div>
+</ion-content>

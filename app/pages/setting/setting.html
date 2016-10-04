@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-navbar primary>
+        <button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>{{ "My Account" | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <ion-card>
+        <ion-card-content>
+            <!-- Add card content here! -->
+            <ion-item class="setting-user-header">
+                <div class="setting-user-image">
+                    <img id="setting-user-icon" src="{{ dataService.photo }}">
+                    <div style="display: inline-block; margin-top: -10px;">
+                        <span>{{ dataService.profileName }}</span>
+                        <br>
+                        <!-- <span>{{ dataService.email }}</span> -->
+                    </div>
+                </div>
+            </ion-item>
+             <ion-item>
+                <ion-label> {{ "Language" | translate }} </ion-label>
+                <ion-select [(ngModel)]="language" (ionChange)="changeLanguage($event)">
+                    <ion-option value="en" > English </ion-option>
+                    <ion-option value="th" > Thailand </ion-option>
+                </ion-select>
+            </ion-item>
+          
+        </ion-card-content>
+    </ion-card>
+</ion-content>

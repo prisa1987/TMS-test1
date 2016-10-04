@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-navbar primary>
+        <button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-nav-back-button class="button-clear" (click)="back()">
+            <i class="ion-arrow-left-c"></i> {{ "Back" | translate }}
+        </ion-nav-back-button>
+        <ion-title>{{ "Stops" | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-list reorder={{isReorder}} (ionItemReorder)="reorderItems($event)">
+        <ion-item-sliding class="item-remove-animate item-icon-right" *ngFor="let stop of stops | async">
+            <ion-item (click)="navigateToEditStop(stop)">
+                <ion-label>{{stop.name}} - {{stop.direction}}
+                    <i class="icon ion-chevron-right icon-accessory"></i>
+                </ion-label>
+            </ion-item>
+            <ion-item-options>
+                <button class="button-assertive" (click)="removeStop(stop)">Delete</button>
+            </ion-item-options>
+        </ion-item-sliding>
+    </ion-list>
+</ion-content>
+<ion-footer-bar class="bar bar-footer">
+    <a class="button halfButton bottom-big button-positive" (click)="navigateToCreatNewStop()">
+      {{ "Add Stop" | translate }}
+    </a>
+    <a class="button halfButton bottom-big" (click)="toggleReorder()">
+      {{ "Reorder" | translate }}
+    </a>
+</ion-footer-bar>

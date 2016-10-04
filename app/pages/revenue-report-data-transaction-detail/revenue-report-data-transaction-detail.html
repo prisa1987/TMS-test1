@@ -1,0 +1,27 @@
+<ion-header>
+    <ion-navbar primary>
+        <button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-nav-back-button class="button-clear" (click)="back()">
+            <i class="ion-arrow-left-c"></i> {{ "Back" | translate }}
+        </ion-nav-back-button>
+        <ion-title>{{ "Details" | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <ion-row class="item col-header item-icon-right  item-stable">
+        <ion-col *ngFor="let column of columns">
+            {{column.name}}
+        </ion-col>
+    </ion-row>
+    <ion-list>
+        <ion-item class="item low-pad-item item-icon-right"  *ngFor="let transaction of transactions | async">
+            <ion-row >
+                <ion-col *ngFor="let column of columns">
+                    {{transaction[column.id]}}
+                </ion-col>
+            </ion-row>
+        </ion-item>
+    </ion-list>
+</ion-content>

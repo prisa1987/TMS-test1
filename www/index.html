@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>Ionic</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src  'self' 'unsafe-inline' *">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link ios-href="build/css/app.ios.css" rel="stylesheet">
+    <link md-href="build/css/app.md.css" rel="stylesheet">
+    <link wp-href="build/css/app.wp.css" rel="stylesheet">
+</head>
+
+<body>
+    <ion-app></ion-app>
+<!--     <script type="text/javascript">
+    var script = document.createElement("script");
+    var GoogleMapApiKey = "AIzaSyC0WlHQjP5NumSuKNL3crJw5rkld9ooLVg";
+    script.src = "https://maps.googleapis.com/maps/api/js?key=" + GoogleMapApiKey + "&libraries=geometry";
+    </script> -->
+    <!-- cordova.js required for cordova apps -->
+    <script src="cordova.js"></script>
+    <!-- Polyfill needed for platforms without Promise and Collection support -->
+    <script src="build/js/es6-shim.min.js"></script>
+    <!-- Zone.js and Reflect-metadata  -->
+    <script src="build/js/Reflect.js"></script>
+    <script src="build/js/zone.js"></script>
+    <!-- the bundle which is built from the app's source code -->
+    <script src="build/js/app.bundle.js"></script>
+    <!-- <script src="node_modules/chart.js/dist/Chart.bundle.min.js"></script> -->
+    <script src="http://cdn.jsdelivr.net/alasql/0.3/alasql.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.3/Chart.bundle.min.js"></script>
+     <!-- <script src="node_modules/chart.js/dist/Chart.bundle.min.js"></script> -->
+    <!-- <script src="https://www.gstatic.com/charts/loader.js"></script> -->
+</body>
+
+</html>

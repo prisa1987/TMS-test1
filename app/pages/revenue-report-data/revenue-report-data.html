@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-navbar primary>
+        <button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-nav-back-button class="button-clear" (click)="back()">
+            <i class="ion-arrow-left-c"></i> {{ "Back" | translate }}
+        </ion-nav-back-button>
+        <ion-title>{{ "Select trips" | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <ion-row class="item col-header item-icon-right item-stable">
+        <ion-col *ngFor="let column of columns">
+            {{column.name}}
+        </ion-col>
+    </ion-row>
+    <ion-list>
+        <ion-item class="ite mlow-pad-item item-icon-right item-divider" *ngFor="let trip of trips"
+         (click)="navigateToDetail(trip.$key, trip.transactions)" >
+            <ion-row >
+                <ion-col *ngFor="let column of columns" class="flex-container wrap column">
+                    {{trip[column.id]}}
+                    <i class="icon ion-chevron-right icon-accessory" *ngIf="hasTransaction(trip.transactions)" (click)="navigateToDetail(trip.$key)"></i>
+                </ion-col>
+            </ion-row>
+        </ion-item>
+    </ion-list>
+</ion-content>
+<ion-footer class="bar bar-footer">
+    <button class="button halfButton" (click)="exportToExcel()">Excel Download</button>
+    <button  class="button halfButton"  (click)="navigateToChart()">Chart</button>
+</ion-footer>

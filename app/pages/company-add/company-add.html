@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-navbar primary>
+        <button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-nav-back-button class="button-clear" (click)="back()">
+            <i class="ion-arrow-left-c"></i> {{ "Back" | translate }}
+        </ion-nav-back-button>
+        <ion-title> {{ "Add New Company" | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="has-header has-footer padding full-height text-center">
+    <div style="">
+        <label class="item item-input">
+	        <ion-input type="text" placeholder="Name" value="" [(ngModel)]="companyName"></ion-input>
+
+        </label>
+        <button class="button fullButton button-positive button-block" (click)="createNewCompany()">
+            {{ "Add New Company" | translate }}
+        </button>
+    </div>
+</ion-content>

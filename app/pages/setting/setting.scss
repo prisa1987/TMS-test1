@@ -1,0 +1,23 @@
+.setting-user-header {
+    padding: 5px !important;
+    background-color: #FFF !important;
+}
+
+.setting-user-header .setting-user-image {
+    display: inline;
+}
+
+.setting-user-header .setting-user-image img {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 5vh;
+}
+
+.setting-user-header .setting-user-name {
+    text-align: center;
+    color: white;
+}
+
+#setting-user-icon {
+	display: inline;
+}

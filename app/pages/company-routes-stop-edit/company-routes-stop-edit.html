@@ -1,0 +1,47 @@
+<ion-header>
+    <ion-navbar primary>
+        <ion-nav-back-button class="button-clear" (click)="back()">
+            <i class="ion-arrow-left-c"></i> {{ "Back" | translate }}
+        </ion-nav-back-button>
+        <button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>{{ "Edit Stop" | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content class="map-page padding full-height text-center company-routes-stop-add" overflow-scroll="auto">
+    <label class="item item-input">
+        <input type="text" placeholder="ID" [(ngModel)]="stopId">
+    </label>
+    <label class="item item-input">
+        <input type="text" placeholder="Name" [(ngModel)]="stopName">
+    </label>
+    <label class="item item-input">
+        <input type="text" placeholder="Fare Stop Tag" [(ngModel)]="fareStopTag">
+    </label>
+    <ion-item>
+        <ion-label>{{ "Direction" | translate }}</ion-label>
+        <ion-select [(ngModel)]="direction">
+            <ion-option value="forward">Forward</ion-option>
+            <ion-option value="reverse">Reverse</ion-option>
+        </ion-select>
+    </ion-item>
+    <ion-item>
+        <ion-label>{{ "Type" | translate }}</ion-label>
+        <ion-select [(ngModel)]="type">
+            <ion-option value="stop">Stop</ion-option>
+            <ion-option value="path">Path</ion-option>
+        </ion-select>
+    </ion-item>
+    <button class="button button-block" (click)="editBusStop()">
+        {{ "Update Location" | translate }}
+    </button>
+    <label class="item item-input">
+        <input type="text" placeholder="Latitude" [(ngModel)]="latitude" disabled/>
+        <input type="text" placeholder="Longitude" [(ngModel)]="longitude" disabled/>
+    </label>
+    <div #pleaseConnect id="please-connect">
+        <p>{{ "Please connect to the Internet..." | translate }}</p>
+    </div>
+    <div #mapStop id="mapStop" class="map-medium"></div>
+</ion-content>

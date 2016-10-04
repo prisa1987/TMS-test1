@@ -1,0 +1,37 @@
+<!--
+  #TIP: in this case we hide the navbar provided by navigation system.
+-->
+<ion-view hide-nav-bar="true">
+
+  <!-- 
+    #IMPLEMENTATION-DETAIL
+    We are using custom classes in "scss/scaffolding.scss"
+  -->
+  <ion-content id="login-content" class="padding full-height" >
+  
+    <!--
+      #IMPLEMENTATION-DETAIL:
+      we are wrapping the login button in an ionic grid in order
+      to keep it centered and quite large
+    -->
+    <div class="custom-title">
+      <div>
+        Transit
+      </div>
+      <br>
+      <div>
+        Management
+      </div>
+      <br>
+      <div>
+        System
+      </div>
+      <br>
+      <button class="button-block button-assertive" (click)="loginWithGoogle()">
+        &nbsp;&nbsp;Login with Google
+      </button>   
+    </div>
+    
+  </ion-content>
+
+</ion-view>

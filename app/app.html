@@ -1,0 +1,45 @@
+<ion-menu [content]="content" enable-menu-with-back-views="true">
+    <ion-content>
+        <ion-list no-lines>
+            <ion-item class="user-header" (click)="openPage(settingPage)">
+                <div class="user-image">
+                    <img id="usericon" src="{{ dataService.photo }}">
+                </div>
+                <div class="user-name">
+                    <span>{{ dataService.profileName }}</span>
+                </div>
+            </ion-item>
+           <button ion-item menu-close (click)="openPage(mapPage)">
+                {{ "Real-time Tracking" | translate }}
+            </button>
+            <div *ngFor="let company of companies | async">
+                <ion-item class="item-stable" (click)="toggleGroup(company)" 
+                [ngClass]="{active:isGroupShown(company)}">
+                    <i class="icon" [ngClass]="isGroupShown(company) ? 'ion-minus' : 'ion-plus'"></i> &nbsp; {{company.name}}
+                </ion-item>
+                <div *ngIf="isGroupShown(company)">
+                    <ion-item class="item-accordion" *ngFor="let entry of company.routes|companyRoutePipe" 
+                    (click)="showMap(company.$key, entry.key)">
+                        {{entry.value.name}}
+                    </ion-item>
+                </div>
+            </div>
+            <button ion-item class="item-stable" (click)="openPage(revenueReportPage)">
+                {{ "Revenue Report" | translate }}
+            </button>
+            <button ion-item menu-close >
+                {{ "System Management" | translate }}
+            </button>
+            <button ion-item class="item-stable" (click)="openPage(companyPage)" >
+                {{ "Company Management" | translate }}
+            </button>
+            <button ion-item class="item-stable" (click)="openPage(companyRoutesPage)">
+                {{ "Route Management" | translate }}
+            </button>
+        </ion-list>
+    </ion-content>
+    <button class="bar-positive" id="buttonLogout" menu-close log-out (click)="logout()">
+        <i class="icon ion-log-out"></i>&nbsp;&nbsp; {{ "Logout" | translate }}
+    </button>
+</ion-menu>
+<ion-nav id="nav" #content [root]="rootPage"></ion-nav>

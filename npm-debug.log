@@ -1,0 +1,1812 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'ng2-charts',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of /Users/Admin/TMS-test1/package.json
+5 warn package.json tms-test1@ No repository field.
+6 warn package.json tms-test1@ No README data
+7 warn package.json tms-test1@ No license field.
+8 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/angularfire2/package.json
+9 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/chart.js/package.json
+10 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/del/package.json
+11 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/es6-shim/package.json
+12 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/firebase/package.json
+13 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/gulp/package.json
+14 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/gulp-watch/package.json
+15 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/ionic-angular/package.json
+16 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/ionic-gulp-browserify-typescript/package.json
+17 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/ionic-gulp-fonts-copy/package.json
+18 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/ionic-gulp-html-copy/package.json
+19 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/ionic-gulp-sass-build/package.json
+20 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/ionic-gulp-scripts-copy/package.json
+21 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/ionic-gulp-tslint/package.json
+22 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/ionic-native/package.json
+23 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/ionicons/package.json
+24 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/ng2-cordova-oauth/package.json
+25 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/ng2-translate/package.json
+26 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/reflect-metadata/package.json
+27 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/run-sequence/package.json
+28 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/rxjs/package.json
+29 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/tslint-ionic-rules/package.json
+30 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/typings/package.json
+31 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/zone.js/package.json
+32 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/@angular/common/package.json
+33 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/@angular/compiler/package.json
+34 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/@angular/core/package.json
+35 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/@angular/forms/package.json
+36 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/@angular/http/package.json
+37 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/@angular/platform-browser/package.json
+38 verbose installManyTop reading scoped package data from /Users/Admin/TMS-test1/node_modules/@angular/platform-browser-dynamic/package.json
+39 info package.json firebase@3.3.0 No license field.
+40 info package.json ionic-gulp-fonts-copy@1.0.0 No repository field.
+41 info package.json ionic-gulp-fonts-copy@1.0.0 No license field.
+42 info package.json ng2-cordova-oauth@0.0.5 No repository field.
+43 info package.json @angular/compiler@2.0.0-rc.4 No description
+44 info package.json @angular/core@2.0.0-rc.4 No description
+45 info package.json @angular/common@2.0.0-rc.4 No description
+46 info package.json @angular/http@2.0.0-rc.4 No description
+47 info package.json @angular/platform-browser-dynamic@2.0.0-rc.4 No description
+48 info package.json @angular/forms@0.2.0 No description
+49 info package.json @angular/platform-browser@2.0.0-rc.4 No description
+50 verbose readDependencies loading dependencies from /Users/Admin/TMS-test1/package.json
+51 silly cache add args [ 'ng2-charts', null ]
+52 verbose cache add spec ng2-charts
+53 silly cache add parsed spec Result {
+53 silly cache add   raw: 'ng2-charts',
+53 silly cache add   scope: null,
+53 silly cache add   name: 'ng2-charts',
+53 silly cache add   rawSpec: '',
+53 silly cache add   spec: 'latest',
+53 silly cache add   type: 'tag' }
+54 silly addNamed ng2-charts@latest
+55 verbose addNamed "latest" is being treated as a dist-tag for ng2-charts
+56 info addNameTag [ 'ng2-charts', 'latest' ]
+57 silly mapToRegistry name ng2-charts
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry data Result {
+60 silly mapToRegistry   raw: 'ng2-charts',
+60 silly mapToRegistry   scope: null,
+60 silly mapToRegistry   name: 'ng2-charts',
+60 silly mapToRegistry   rawSpec: '',
+60 silly mapToRegistry   spec: 'latest',
+60 silly mapToRegistry   type: 'tag' }
+61 silly mapToRegistry uri https://registry.npmjs.org/ng2-charts
+62 verbose addNameTag registry:https://registry.npmjs.org/ng2-charts not in flight; fetching
+63 verbose request uri https://registry.npmjs.org/ng2-charts
+64 verbose request no auth needed
+65 info attempt registry request try #1 at 2:46:42 PM
+66 verbose request id b4c618dbc59e74e8
+67 verbose etag "6UE6WJJS7K107JVXJRXCJQIT2"
+68 http request GET https://registry.npmjs.org/ng2-charts
+69 http 304 https://registry.npmjs.org/ng2-charts
+70 verbose headers { date: 'Sun, 21 Aug 2016 07:46:43 GMT',
+70 verbose headers   via: '1.1 varnish',
+70 verbose headers   'cache-control': 'max-age=300',
+70 verbose headers   etag: '"6UE6WJJS7K107JVXJRXCJQIT2"',
+70 verbose headers   age: '0',
+70 verbose headers   connection: 'keep-alive',
+70 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+70 verbose headers   'x-cache': 'MISS',
+70 verbose headers   'x-cache-hits': '0',
+70 verbose headers   'x-timer': 'S1471765603.236870,VS0,VE236',
+70 verbose headers   vary: 'Accept-Encoding' }
+71 silly get cb [ 304,
+71 silly get   { date: 'Sun, 21 Aug 2016 07:46:43 GMT',
+71 silly get     via: '1.1 varnish',
+71 silly get     'cache-control': 'max-age=300',
+71 silly get     etag: '"6UE6WJJS7K107JVXJRXCJQIT2"',
+71 silly get     age: '0',
+71 silly get     connection: 'keep-alive',
+71 silly get     'x-served-by': 'cache-sin6920-SIN',
+71 silly get     'x-cache': 'MISS',
+71 silly get     'x-cache-hits': '0',
+71 silly get     'x-timer': 'S1471765603.236870,VS0,VE236',
+71 silly get     vary: 'Accept-Encoding' } ]
+72 verbose etag https://registry.npmjs.org/ng2-charts from cache
+73 verbose get saving ng2-charts to /Users/Admin/.npm/registry.npmjs.org/ng2-charts/.cache.json
+74 verbose correctMkdir /Users/Admin/.npm correctMkdir not in flight; initializing
+75 silly addNameTag next cb for ng2-charts with tag latest
+76 silly addNamed ng2-charts@1.1.0
+77 verbose addNamed "1.1.0" is a plain semver version for ng2-charts
+78 silly cache afterAdd ng2-charts@1.1.0
+79 verbose afterAdd /Users/Admin/.npm/ng2-charts/1.1.0/package/package.json not in flight; writing
+80 verbose correctMkdir /Users/Admin/.npm correctMkdir not in flight; initializing
+81 verbose afterAdd /Users/Admin/.npm/ng2-charts/1.1.0/package/package.json written
+82 silly install resolved [ { name: 'ng2-charts',
+82 silly install resolved     version: '1.1.0',
+82 silly install resolved     description: 'Reactive, responsive, beautiful charts for Angular2 based on Chart.js',
+82 silly install resolved     scripts:
+82 silly install resolved      { 'flow.install:typings': 'typings install',
+82 silly install resolved        'flow.compile': 'npm run flow.install:typings && npm run flow.compile:common && npm run flow.compile:system ',
+82 silly install resolved        'flow.compile:common': 'tsc',
+82 silly install resolved        'flow.compile:system': './.config/bundle-system.js',
+82 silly install resolved        'flow.copy:src': 'cpy ng2-charts.ts "components/**/*.ts" ts --parents',
+82 silly install resolved        'flow.clean': 'del bundles coverage demo-build typings "components/**/*.+(js|d.ts|js.map)" dist "ng2-charts.+(js|d.ts|js.map)"',
+82 silly install resolved        'flow.deploy:gh-pages': 'npm run flow.build:prod && ./node_modules/.bin/gh-pages -d demo-build',
+82 silly install resolved        'flow.eslint': 'eslint --ignore-path .gitignore  --ext js --fix . .config',
+82 silly install resolved        'flow.tslint': 'gulp lint',
+82 silly install resolved        'flow.lint': 'npm run flow.eslint && npm run flow.tslint',
+82 silly install resolved        'flow.changelog': 'conventional-changelog -i CHANGELOG.md -s -p angular -v',
+82 silly install resolved        'flow.github-release': 'conventional-github-releaser -p angular',
+82 silly install resolved        'flow.build:prod': 'NODE_ENV=production ./node_modules/.bin/webpack --progress --color',
+82 silly install resolved        'flow.build:dev': 'webpack --progress --color',
+82 silly install resolved        'flow.serve:dev': 'webpack-dev-server --hot --inline --colors --display-error-details --display-cached',
+82 silly install resolved        'flow.serve:prod': 'NODE_ENV=production ./node_modules/.bin/webpack-dev-server --hot --inline --colors --display-error-details --display-cached',
+82 silly install resolved        prepublish: 'npm run flow.clean && npm run flow.compile && npm run flow.copy:src',
+82 silly install resolved        postpublish: 'npm run flow.deploy:gh-pages',
+82 silly install resolved        start: 'npm run flow.serve:dev',
+82 silly install resolved        test: 'npm run flow.lint',
+82 silly install resolved        'karma-test': 'NODE_ENV=test ./node_modules/.bin/karma start',
+82 silly install resolved        preversion: 'npm test',
+82 silly install resolved        version: 'npm run flow.changelog && git add -A',
+82 silly install resolved        postversion: 'git push origin development && git push --tags' },
+82 silly install resolved     main: 'ng2-charts.js',
+82 silly install resolved     typings: 'ng2-charts.d.ts',
+82 silly install resolved     keywords: [ 'angular2', 'angularjs', 'charts' ],
+82 silly install resolved     author: { name: 'Dmitriy Shekhovtsov', email: 'valorkin@gmail.com' },
+82 silly install resolved     license: 'MIT',
+82 silly install resolved     repository:
+82 silly install resolved      { type: 'git',
+82 silly install resolved        url: 'git+ssh://git@github.com/valor-software/ng2-charts.git' },
+82 silly install resolved     bugs: { url: 'https://github.com/valor-software/ng2-charts/issues' },
+82 silly install resolved     homepage: 'https://github.com/valor-software/ng2-charts#readme',
+82 silly install resolved     peerDependencies:
+82 silly install resolved      { '@angular/core': '^2.0.0-rc.1',
+82 silly install resolved        '@angular/common': '^2.0.0-rc.1' },
+82 silly install resolved     dependencies: { 'chart.js': '2.1.3' },
+82 silly install resolved     devDependencies:
+82 silly install resolved      { '@angular/common': '2.0.0-rc.1',
+82 silly install resolved        '@angular/compiler': '2.0.0-rc.1',
+82 silly install resolved        '@angular/core': '2.0.0-rc.1',
+82 silly install resolved        '@angular/platform-browser': '2.0.0-rc.1',
+82 silly install resolved        '@angular/platform-browser-dynamic': '2.0.0-rc.1',
+82 silly install resolved        async: '2.0.0-rc.3',
+82 silly install resolved        bootstrap: '3.3.6',
+82 silly install resolved        'clean-webpack-plugin': '0.1.9',
+82 silly install resolved        'compression-webpack-plugin': '0.3.1',
+82 silly install resolved        'conventional-changelog-cli': '1.2.0',
+82 silly install resolved        'conventional-github-releaser': '1.1.2',
+82 silly install resolved        'copy-webpack-plugin': '3.0.0',
+82 silly install resolved        'cpy-cli': '1.0.0',
+82 silly install resolved        'del-cli': '0.2.0',
+82 silly install resolved        'es6-promise': '3.2.1',
+82 silly install resolved        'es6-shim': '0.35.1',
+82 silly install resolved        'eslint-config-valorsoft': '0.0.11',
+82 silly install resolved        'exports-loader': '0.6.3',
+82 silly install resolved        'gh-pages': '0.11.0',
+82 silly install resolved        'gitignore-to-glob': '0.2.1',
+82 silly install resolved        gulp: '3.9.1',
+82 silly install resolved        'gulp-clean': '0.3.2',
+82 silly install resolved        'gulp-eslint': '2.0.0',
+82 silly install resolved        'gulp-size': '2.1.0',
+82 silly install resolved        'gulp-tsc': '1.1.5',
+82 silly install resolved        'gulp-tslint': '5.0.0',
+82 silly install resolved        'html-loader': '0.4.3',
+82 silly install resolved        'html-webpack-plugin': '2.17.0',
+82 silly install resolved        'markdown-loader': '0.1.7',
+82 silly install resolved        marked: '0.3.5',
+82 silly install resolved        'ng2-bootstrap': '1.0.16',
+82 silly install resolved        'pre-commit': '1.1.3',
+82 silly install resolved        prismjs: '1.5.0',
+82 silly install resolved        'prismjs-loader': '0.0.3',
+82 silly install resolved        'raw-loader': '0.5.1',
+82 silly install resolved        'reflect-metadata': '0.1.2',
+82 silly install resolved        'require-dir': '0.3.0',
+82 silly install resolved        rxjs: '5.0.0-beta.6',
+82 silly install resolved        'systemjs-builder': '0.15.16',
+82 silly install resolved        'transfer-webpack-plugin': '0.1.4',
+82 silly install resolved        'ts-loader': '0.8.2',
+82 silly install resolved        'tslint-config-valorsoft': '1.0.3',
+82 silly install resolved        typescript: '1.8.10',
+82 silly install resolved        typings: '0.8.1',
+82 silly install resolved        webpack: '1.13.0',
+82 silly install resolved        'webpack-dev-server': '1.14.1',
+82 silly install resolved        'zone.js': '0.6.12' },
+82 silly install resolved     contributors: [ [Object], [Object] ],
+82 silly install resolved     gitHead: '96baee91d1152e7f598c6a1507cc1a0f006cb6a5',
+82 silly install resolved     _id: 'ng2-charts@1.1.0',
+82 silly install resolved     _shasum: '7c502c6150fdab45bac4585eb2c3892fae0f1bb3',
+82 silly install resolved     _from: 'ng2-charts@latest',
+82 silly install resolved     _npmVersion: '3.8.6',
+82 silly install resolved     _nodeVersion: '6.1.0',
+82 silly install resolved     _npmUser: { name: 'valorkin', email: 'valorkin@gmail.com' },
+82 silly install resolved     dist:
+82 silly install resolved      { shasum: '7c502c6150fdab45bac4585eb2c3892fae0f1bb3',
+82 silly install resolved        tarball: 'https://registry.npmjs.org/ng2-charts/-/ng2-charts-1.1.0.tgz' },
+82 silly install resolved     maintainers: [ [Object] ],
+82 silly install resolved     _npmOperationalInternal:
+82 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+82 silly install resolved        tmp: 'tmp/ng2-charts-1.1.0.tgz_1463492528238_0.9077266661915928' },
+82 silly install resolved     directories: {},
+82 silly install resolved     _resolved: 'https://registry.npmjs.org/ng2-charts/-/ng2-charts-1.1.0.tgz',
+82 silly install resolved     readme: 'ERROR: No README data found!' } ]
+83 info install ng2-charts@1.1.0 into /Users/Admin/TMS-test1
+84 info installOne ng2-charts@1.1.0
+85 verbose installOne of ng2-charts to /Users/Admin/TMS-test1 not in flight; installing
+86 verbose correctMkdir /Users/Admin/.npm/_locks correctMkdir not in flight; initializing
+87 verbose lock using /Users/Admin/.npm/_locks/ng2-charts-6b8dac5322ec5374.lock for /Users/Admin/TMS-test1/node_modules/ng2-charts
+88 silly install write writing ng2-charts 1.1.0 to /Users/Admin/TMS-test1/node_modules/ng2-charts
+89 verbose unbuild node_modules/ng2-charts
+90 silly gentlyRm /Users/Admin/TMS-test1/node_modules/ng2-charts is being purged from base /Users/Admin/TMS-test1
+91 verbose gentlyRm don't care about contents; nuking /Users/Admin/TMS-test1/node_modules/ng2-charts
+92 verbose tar unpack /Users/Admin/.npm/ng2-charts/1.1.0/package.tgz
+93 verbose tar unpacking to /Users/Admin/TMS-test1/node_modules/ng2-charts
+94 silly gentlyRm /Users/Admin/TMS-test1/node_modules/ng2-charts is being purged
+95 verbose gentlyRm don't care about contents; nuking /Users/Admin/TMS-test1/node_modules/ng2-charts
+96 silly gunzTarPerm modes [ '755', '644' ]
+97 silly gunzTarPerm extractEntry package.json
+98 silly gunzTarPerm extractEntry .npmignore
+99 silly gunzTarPerm extractEntry README.md
+100 silly gunzTarPerm extractEntry LICENSE
+101 silly gunzTarPerm extractEntry gulpfile.js
+102 silly gunzTarPerm extractEntry ng2-charts.js
+103 silly gunzTarPerm extractEntry .eslintrc.json
+104 silly gunzTarPerm extractEntry bundles/ng2-charts.js
+105 silly gunzTarPerm extractEntry bundles/ng2-charts.min.js
+106 silly gunzTarPerm extractEntry bundles/ng2-charts.js.gz
+107 silly gunzTarPerm extractEntry bundles/ng2-charts.js.map.gz
+108 silly gunzTarPerm extractEntry bundles/ng2-charts.min.js.gz
+109 silly gunzTarPerm extractEntry bundles/ng2-charts.min.js.map.gz
+110 silly gunzTarPerm extractEntry components/charts/charts.js
+111 silly gunzTarPerm extractEntry components/charts/charts.d.ts
+112 silly gunzTarPerm extractEntry components/charts/readme.md
+113 silly gunzTarPerm extractEntry components/charts/title.md
+114 silly gunzTarPerm extractEntry .editorconfig
+115 silly gunzTarPerm extractEntry ng2-charts.d.ts
+116 silly gunzTarPerm extractEntry .config/bundle-system.js
+117 silly gunzTarPerm extractEntry typings.json
+118 silly gunzTarPerm extractEntry .travis.yml
+119 silly gunzTarPerm extractEntry CHANGELOG.md
+120 silly gunzTarPerm extractEntry tsconfig.json
+121 silly gunzTarPerm extractEntry tslint.json
+122 verbose write writing to /Users/Admin/TMS-test1/node_modules/ng2-charts/package.json
+123 info preinstall ng2-charts@1.1.0
+124 verbose readDependencies loading dependencies from /Users/Admin/TMS-test1/node_modules/ng2-charts/package.json
+125 silly prepareForInstallMany adding chart.js@2.1.3 from ng2-charts dependencies
+126 verbose readDependencies loading dependencies from /Users/Admin/TMS-test1/node_modules/ng2-charts/package.json
+127 silly cache add args [ 'chart.js@2.1.3', null ]
+128 verbose cache add spec chart.js@2.1.3
+129 silly cache add parsed spec Result {
+129 silly cache add   raw: 'chart.js@2.1.3',
+129 silly cache add   scope: null,
+129 silly cache add   name: 'chart.js',
+129 silly cache add   rawSpec: '2.1.3',
+129 silly cache add   spec: '2.1.3',
+129 silly cache add   type: 'version' }
+130 silly addNamed chart.js@2.1.3
+131 verbose addNamed "2.1.3" is a plain semver version for chart.js
+132 silly mapToRegistry name chart.js
+133 silly mapToRegistry using default registry
+134 silly mapToRegistry registry https://registry.npmjs.org/
+135 silly mapToRegistry data Result {
+135 silly mapToRegistry   raw: 'chart.js',
+135 silly mapToRegistry   scope: null,
+135 silly mapToRegistry   name: 'chart.js',
+135 silly mapToRegistry   rawSpec: '',
+135 silly mapToRegistry   spec: 'latest',
+135 silly mapToRegistry   type: 'tag' }
+136 silly mapToRegistry uri https://registry.npmjs.org/chart.js
+137 verbose addNameVersion registry:https://registry.npmjs.org/chart.js not in flight; fetching
+138 verbose request uri https://registry.npmjs.org/chart.js
+139 verbose request no auth needed
+140 info attempt registry request try #1 at 2:46:43 PM
+141 verbose etag "6TLJDAFDU0UIOEWT8IUBD14AU"
+142 http request GET https://registry.npmjs.org/chart.js
+143 http 304 https://registry.npmjs.org/chart.js
+144 verbose headers { date: 'Sun, 21 Aug 2016 07:46:43 GMT',
+144 verbose headers   via: '1.1 varnish',
+144 verbose headers   'cache-control': 'max-age=300',
+144 verbose headers   etag: '"6TLJDAFDU0UIOEWT8IUBD14AU"',
+144 verbose headers   age: '0',
+144 verbose headers   connection: 'keep-alive',
+144 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+144 verbose headers   'x-cache': 'HIT',
+144 verbose headers   'x-cache-hits': '1',
+144 verbose headers   'x-timer': 'S1471765603.763520,VS0,VE1035',
+144 verbose headers   vary: 'Accept-Encoding' }
+145 silly get cb [ 304,
+145 silly get   { date: 'Sun, 21 Aug 2016 07:46:43 GMT',
+145 silly get     via: '1.1 varnish',
+145 silly get     'cache-control': 'max-age=300',
+145 silly get     etag: '"6TLJDAFDU0UIOEWT8IUBD14AU"',
+145 silly get     age: '0',
+145 silly get     connection: 'keep-alive',
+145 silly get     'x-served-by': 'cache-sin6920-SIN',
+145 silly get     'x-cache': 'HIT',
+145 silly get     'x-cache-hits': '1',
+145 silly get     'x-timer': 'S1471765603.763520,VS0,VE1035',
+145 silly get     vary: 'Accept-Encoding' } ]
+146 verbose etag https://registry.npmjs.org/chart.js from cache
+147 verbose get saving chart.js to /Users/Admin/.npm/registry.npmjs.org/chart.js/.cache.json
+148 verbose correctMkdir /Users/Admin/.npm correctMkdir not in flight; initializing
+149 silly cache afterAdd chart.js@2.1.3
+150 verbose afterAdd /Users/Admin/.npm/chart.js/2.1.3/package/package.json not in flight; writing
+151 verbose correctMkdir /Users/Admin/.npm correctMkdir not in flight; initializing
+152 verbose afterAdd /Users/Admin/.npm/chart.js/2.1.3/package/package.json written
+153 silly install resolved [ { name: 'chart.js',
+153 silly install resolved     homepage: 'http://www.chartjs.org',
+153 silly install resolved     description: 'Simple HTML5 charts using the canvas element.',
+153 silly install resolved     version: '2.1.3',
+153 silly install resolved     license: 'MIT',
+153 silly install resolved     main: 'src/chart.js',
+153 silly install resolved     repository:
+153 silly install resolved      { type: 'git',
+153 silly install resolved        url: 'git+https://github.com/chartjs/Chart.js.git' },
+153 silly install resolved     devDependencies:
+153 silly install resolved      { browserify: '^13.0.0',
+153 silly install resolved        'browserify-istanbul': '^0.2.1',
+153 silly install resolved        coveralls: '^2.11.6',
+153 silly install resolved        gulp: '3.9.x',
+153 silly install resolved        'gulp-concat': '~2.1.x',
+153 silly install resolved        'gulp-connect': '~2.0.5',
+153 silly install resolved        'gulp-html-validator': '^0.0.2',
+153 silly install resolved        'gulp-insert': '~0.5.0',
+153 silly install resolved        'gulp-jshint': '~1.5.1',
+153 silly install resolved        'gulp-karma': '0.0.4',
+153 silly install resolved        'gulp-replace': '^0.4.0',
+153 silly install resolved        'gulp-size': '~0.4.0',
+153 silly install resolved        'gulp-streamify': '^1.0.2',
+153 silly install resolved        'gulp-uglify': '~0.2.x',
+153 silly install resolved        'gulp-umd': '~0.2.0',
+153 silly install resolved        'gulp-util': '~2.2.x',
+153 silly install resolved        inquirer: '^0.5.1',
+153 silly install resolved        jasmine: '^2.3.2',
+153 silly install resolved        'jasmine-core': '^2.3.4',
+153 silly install resolved        jquery: '^2.1.4',
+153 silly install resolved        'jshint-stylish': '~2.1.0',
+153 silly install resolved        karma: '^0.12.37',
+153 silly install resolved        'karma-browserify': '^5.0.1',
+153 silly install resolved        'karma-chrome-launcher': '^0.2.0',
+153 silly install resolved        'karma-coverage': '^0.5.1',
+153 silly install resolved        'karma-firefox-launcher': '^0.1.6',
+153 silly install resolved        'karma-jasmine': '^0.3.6',
+153 silly install resolved        'karma-jasmine-html-reporter': '^0.1.8',
+153 silly install resolved        'merge-stream': '^1.0.0',
+153 silly install resolved        semver: '^3.0.1',
+153 silly install resolved        'vinyl-source-stream': '^1.1.0',
+153 silly install resolved        watchify: '^3.7.0' },
+153 silly install resolved     spm: { main: 'Chart.js' },
+153 silly install resolved     dependencies: { 'chartjs-color': '^1.0.2', moment: '^2.10.6' },
+153 silly install resolved     gitHead: '691a7c6a4bef0c6e0b8d1c82bafd4e2807239fac',
+153 silly install resolved     bugs: { url: 'https://github.com/chartjs/Chart.js/issues' },
+153 silly install resolved     _id: 'chart.js@2.1.3',
+153 silly install resolved     scripts: {},
+153 silly install resolved     _shasum: '710027edfc159d6f949c6537729431c72d4dca49',
+153 silly install resolved     _from: 'chart.js@2.1.3',
+153 silly install resolved     _npmVersion: '3.6.0',
+153 silly install resolved     _nodeVersion: '5.6.0',
+153 silly install resolved     _npmUser: { name: 'etimberg', email: 'evert.timberg+npm@gmail.com' },
+153 silly install resolved     dist:
+153 silly install resolved      { shasum: '710027edfc159d6f949c6537729431c72d4dca49',
+153 silly install resolved        tarball: 'https://registry.npmjs.org/chart.js/-/chart.js-2.1.3.tgz' },
+153 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+153 silly install resolved     _npmOperationalInternal:
+153 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+153 silly install resolved        tmp: 'tmp/chart.js-2.1.3.tgz_1463093250261_0.1186228112783283' },
+153 silly install resolved     directories: {},
+153 silly install resolved     _resolved: 'https://registry.npmjs.org/chart.js/-/chart.js-2.1.3.tgz',
+153 silly install resolved     readme: 'ERROR: No README data found!' } ]
+154 info install chart.js@2.1.3 into /Users/Admin/TMS-test1/node_modules/ng2-charts
+155 info installOne chart.js@2.1.3
+156 verbose installOne of chart.js to /Users/Admin/TMS-test1/node_modules/ng2-charts not in flight; installing
+157 verbose correctMkdir /Users/Admin/.npm/_locks correctMkdir not in flight; initializing
+158 verbose lock using /Users/Admin/.npm/_locks/chart-js-c80b20de19bba349.lock for /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js
+159 silly install write writing chart.js 2.1.3 to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js
+160 verbose unbuild node_modules/ng2-charts/node_modules/chart.js
+161 silly gentlyRm /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js is being purged from base /Users/Admin/TMS-test1
+162 verbose gentlyRm don't care about contents; nuking /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js
+163 verbose tar unpack /Users/Admin/.npm/chart.js/2.1.3/package.tgz
+164 verbose tar unpacking to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js
+165 silly gentlyRm /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js is being purged
+166 verbose gentlyRm don't care about contents; nuking /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js
+167 silly gunzTarPerm modes [ '755', '644' ]
+168 silly gunzTarPerm extractEntry package.json
+169 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+170 silly gunzTarPerm extractEntry .npmignore
+171 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+172 silly gunzTarPerm extractEntry README.md
+173 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+174 silly gunzTarPerm extractEntry gulpfile.js
+175 silly gunzTarPerm modified mode [ 'gulpfile.js', 438, 420 ]
+176 silly gunzTarPerm extractEntry karma.conf.ci.js
+177 silly gunzTarPerm modified mode [ 'karma.conf.ci.js', 438, 420 ]
+178 silly gunzTarPerm extractEntry karma.conf.js
+179 silly gunzTarPerm modified mode [ 'karma.conf.js', 438, 420 ]
+180 silly gunzTarPerm extractEntry karma.coverage.conf.js
+181 silly gunzTarPerm modified mode [ 'karma.coverage.conf.js', 438, 420 ]
+182 silly gunzTarPerm extractEntry .eslintrc
+183 silly gunzTarPerm modified mode [ '.eslintrc', 438, 420 ]
+184 silly gunzTarPerm extractEntry bower.json
+185 silly gunzTarPerm modified mode [ 'bower.json', 438, 420 ]
+186 silly gunzTarPerm extractEntry composer.json
+187 silly gunzTarPerm modified mode [ 'composer.json', 438, 420 ]
+188 silly gunzTarPerm extractEntry config.jshintrc
+189 silly gunzTarPerm modified mode [ 'config.jshintrc', 438, 420 ]
+190 silly gunzTarPerm extractEntry .eslintignore
+191 silly gunzTarPerm modified mode [ '.eslintignore', 438, 420 ]
+192 silly gunzTarPerm extractEntry dist/Chart.bundle.js
+193 silly gunzTarPerm modified mode [ 'dist/Chart.bundle.js', 438, 420 ]
+194 silly gunzTarPerm extractEntry dist/Chart.bundle.min.js
+195 silly gunzTarPerm modified mode [ 'dist/Chart.bundle.min.js', 438, 420 ]
+196 silly gunzTarPerm extractEntry dist/Chart.js
+197 silly gunzTarPerm modified mode [ 'dist/Chart.js', 438, 420 ]
+198 silly gunzTarPerm extractEntry dist/Chart.min.js
+199 silly gunzTarPerm modified mode [ 'dist/Chart.min.js', 438, 420 ]
+200 silly gunzTarPerm extractEntry docs/00-Getting-Started.md
+201 silly gunzTarPerm modified mode [ 'docs/00-Getting-Started.md', 438, 420 ]
+202 silly gunzTarPerm extractEntry docs/01-Scales.md
+203 silly gunzTarPerm modified mode [ 'docs/01-Scales.md', 438, 420 ]
+204 silly gunzTarPerm extractEntry docs/02-Line-Chart.md
+205 silly gunzTarPerm modified mode [ 'docs/02-Line-Chart.md', 438, 420 ]
+206 silly gunzTarPerm extractEntry docs/03-Bar-Chart.md
+207 silly gunzTarPerm modified mode [ 'docs/03-Bar-Chart.md', 438, 420 ]
+208 silly gunzTarPerm extractEntry docs/04-Radar-Chart.md
+209 silly gunzTarPerm modified mode [ 'docs/04-Radar-Chart.md', 438, 420 ]
+210 silly gunzTarPerm extractEntry docs/05-Polar-Area-Chart.md
+211 silly gunzTarPerm modified mode [ 'docs/05-Polar-Area-Chart.md', 438, 420 ]
+212 silly gunzTarPerm extractEntry docs/06-Pie-Doughnut-Chart.md
+213 silly gunzTarPerm modified mode [ 'docs/06-Pie-Doughnut-Chart.md', 438, 420 ]
+214 silly gunzTarPerm extractEntry docs/07-Advanced.md
+215 silly gunzTarPerm modified mode [ 'docs/07-Advanced.md', 438, 420 ]
+216 silly gunzTarPerm extractEntry docs/08-Notes.md
+217 silly gunzTarPerm modified mode [ 'docs/08-Notes.md', 438, 420 ]
+218 silly gunzTarPerm extractEntry .codeclimate.yml
+219 silly gunzTarPerm modified mode [ '.codeclimate.yml', 438, 420 ]
+220 silly gunzTarPerm extractEntry .travis.yml
+221 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+222 silly gunzTarPerm extractEntry CONTRIBUTING.md
+223 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 438, 420 ]
+224 silly gunzTarPerm extractEntry src/chart.js
+225 silly gunzTarPerm modified mode [ 'src/chart.js', 438, 420 ]
+226 silly gunzTarPerm extractEntry src/charts/Chart.Bar.js
+227 silly gunzTarPerm modified mode [ 'src/charts/Chart.Bar.js', 438, 420 ]
+228 silly gunzTarPerm extractEntry src/charts/Chart.Bubble.js
+229 silly gunzTarPerm modified mode [ 'src/charts/Chart.Bubble.js', 438, 420 ]
+230 silly gunzTarPerm extractEntry src/charts/Chart.Doughnut.js
+231 silly gunzTarPerm modified mode [ 'src/charts/Chart.Doughnut.js', 438, 420 ]
+232 silly gunzTarPerm extractEntry src/charts/Chart.Line.js
+233 silly gunzTarPerm modified mode [ 'src/charts/Chart.Line.js', 438, 420 ]
+234 silly gunzTarPerm extractEntry src/charts/Chart.PolarArea.js
+235 silly gunzTarPerm modified mode [ 'src/charts/Chart.PolarArea.js', 438, 420 ]
+236 silly gunzTarPerm extractEntry src/charts/Chart.Radar.js
+237 silly gunzTarPerm modified mode [ 'src/charts/Chart.Radar.js', 438, 420 ]
+238 silly gunzTarPerm extractEntry src/charts/Chart.Scatter.js
+239 silly gunzTarPerm modified mode [ 'src/charts/Chart.Scatter.js', 438, 420 ]
+240 silly gunzTarPerm extractEntry src/controllers/controller.bar.js
+241 silly gunzTarPerm modified mode [ 'src/controllers/controller.bar.js', 438, 420 ]
+242 silly gunzTarPerm extractEntry src/controllers/controller.bubble.js
+243 silly gunzTarPerm modified mode [ 'src/controllers/controller.bubble.js', 438, 420 ]
+244 silly gunzTarPerm extractEntry src/controllers/controller.doughnut.js
+245 silly gunzTarPerm modified mode [ 'src/controllers/controller.doughnut.js', 438, 420 ]
+246 silly gunzTarPerm extractEntry src/controllers/controller.line.js
+247 silly gunzTarPerm modified mode [ 'src/controllers/controller.line.js', 438, 420 ]
+248 silly gunzTarPerm extractEntry src/controllers/controller.polarArea.js
+249 silly gunzTarPerm modified mode [ 'src/controllers/controller.polarArea.js', 438, 420 ]
+250 silly gunzTarPerm extractEntry src/controllers/controller.radar.js
+251 silly gunzTarPerm modified mode [ 'src/controllers/controller.radar.js', 438, 420 ]
+252 silly gunzTarPerm extractEntry src/core/core.animation.js
+253 silly gunzTarPerm modified mode [ 'src/core/core.animation.js', 438, 420 ]
+254 silly gunzTarPerm extractEntry src/core/core.element.js
+255 silly gunzTarPerm modified mode [ 'src/core/core.element.js', 438, 420 ]
+256 silly gunzTarPerm extractEntry src/core/core.helpers.js
+257 silly gunzTarPerm modified mode [ 'src/core/core.helpers.js', 438, 420 ]
+258 silly gunzTarPerm extractEntry src/core/core.js
+259 silly gunzTarPerm modified mode [ 'src/core/core.js', 438, 420 ]
+260 silly gunzTarPerm extractEntry src/core/core.datasetController.js
+261 silly gunzTarPerm modified mode [ 'src/core/core.datasetController.js', 438, 420 ]
+262 silly gunzTarPerm extractEntry src/core/core.legend.js
+263 silly gunzTarPerm modified mode [ 'src/core/core.legend.js', 438, 420 ]
+264 silly gunzTarPerm extractEntry src/core/core.plugin.js
+265 silly gunzTarPerm modified mode [ 'src/core/core.plugin.js', 438, 420 ]
+266 silly gunzTarPerm extractEntry src/core/core.scale.js
+267 silly gunzTarPerm modified mode [ 'src/core/core.scale.js', 438, 420 ]
+268 silly gunzTarPerm extractEntry src/core/core.scaleService.js
+269 silly gunzTarPerm modified mode [ 'src/core/core.scaleService.js', 438, 420 ]
+270 silly gunzTarPerm extractEntry src/core/core.title.js
+271 silly gunzTarPerm modified mode [ 'src/core/core.title.js', 438, 420 ]
+272 silly gunzTarPerm extractEntry src/core/core.controller.js
+273 silly gunzTarPerm modified mode [ 'src/core/core.controller.js', 438, 420 ]
+274 silly gunzTarPerm extractEntry src/core/core.tooltip.js
+275 silly gunzTarPerm modified mode [ 'src/core/core.tooltip.js', 438, 420 ]
+276 silly gunzTarPerm extractEntry src/core/core.layoutService.js
+277 silly gunzTarPerm modified mode [ 'src/core/core.layoutService.js', 438, 420 ]
+278 silly gunzTarPerm extractEntry src/elements/element.arc.js
+279 silly gunzTarPerm modified mode [ 'src/elements/element.arc.js', 438, 420 ]
+280 silly gunzTarPerm extractEntry src/elements/element.line.js
+281 silly gunzTarPerm modified mode [ 'src/elements/element.line.js', 438, 420 ]
+282 silly gunzTarPerm extractEntry src/elements/element.point.js
+283 silly gunzTarPerm modified mode [ 'src/elements/element.point.js', 438, 420 ]
+284 silly gunzTarPerm extractEntry src/elements/element.rectangle.js
+285 silly gunzTarPerm modified mode [ 'src/elements/element.rectangle.js', 438, 420 ]
+286 silly gunzTarPerm extractEntry src/scales/scale.category.js
+287 silly gunzTarPerm modified mode [ 'src/scales/scale.category.js', 438, 420 ]
+288 silly gunzTarPerm extractEntry src/scales/scale.linear.js
+289 silly gunzTarPerm modified mode [ 'src/scales/scale.linear.js', 438, 420 ]
+290 silly gunzTarPerm extractEntry src/scales/scale.logarithmic.js
+291 silly gunzTarPerm modified mode [ 'src/scales/scale.logarithmic.js', 438, 420 ]
+292 silly gunzTarPerm extractEntry src/scales/scale.radialLinear.js
+293 silly gunzTarPerm modified mode [ 'src/scales/scale.radialLinear.js', 438, 420 ]
+294 silly gunzTarPerm extractEntry src/scales/scale.time.js
+295 silly gunzTarPerm modified mode [ 'src/scales/scale.time.js', 438, 420 ]
+296 silly gunzTarPerm extractEntry LICENSE.md
+297 silly gunzTarPerm modified mode [ 'LICENSE.md', 438, 420 ]
+298 silly gunzTarPerm extractEntry samples/line-skip-points.html
+299 silly gunzTarPerm modified mode [ 'samples/line-skip-points.html', 438, 420 ]
+300 silly gunzTarPerm extractEntry samples/AnimationCallbacks/progress-bar.html
+301 silly gunzTarPerm modified mode [ 'samples/AnimationCallbacks/progress-bar.html', 438, 420 ]
+302 silly gunzTarPerm extractEntry samples/bar-multi-axis.html
+303 silly gunzTarPerm modified mode [ 'samples/bar-multi-axis.html', 438, 420 ]
+304 silly gunzTarPerm extractEntry samples/bar-stacked.html
+305 silly gunzTarPerm modified mode [ 'samples/bar-stacked.html', 438, 420 ]
+306 silly gunzTarPerm extractEntry samples/bar.html
+307 silly gunzTarPerm modified mode [ 'samples/bar.html', 438, 420 ]
+308 silly gunzTarPerm extractEntry samples/bubble.html
+309 silly gunzTarPerm modified mode [ 'samples/bubble.html', 438, 420 ]
+310 silly gunzTarPerm extractEntry samples/combo-bar-line.html
+311 silly gunzTarPerm modified mode [ 'samples/combo-bar-line.html', 438, 420 ]
+312 silly gunzTarPerm extractEntry samples/data_label_combo-bar-line.html
+313 silly gunzTarPerm modified mode [ 'samples/data_label_combo-bar-line.html', 438, 420 ]
+314 silly gunzTarPerm extractEntry samples/different-point-sizes.html
+315 silly gunzTarPerm modified mode [ 'samples/different-point-sizes.html', 438, 420 ]
+316 silly gunzTarPerm extractEntry samples/doughnut.html
+317 silly gunzTarPerm modified mode [ 'samples/doughnut.html', 438, 420 ]
+318 silly gunzTarPerm extractEntry samples/line-customTooltips.html
+319 silly gunzTarPerm modified mode [ 'samples/line-customTooltips.html', 438, 420 ]
+320 silly gunzTarPerm extractEntry samples/line-legend.html
+321 silly gunzTarPerm modified mode [ 'samples/line-legend.html', 438, 420 ]
+322 silly gunzTarPerm extractEntry samples/line-logarithmic.html
+323 silly gunzTarPerm modified mode [ 'samples/line-logarithmic.html', 438, 420 ]
+324 silly gunzTarPerm extractEntry samples/line-multi-axis.html
+325 silly gunzTarPerm modified mode [ 'samples/line-multi-axis.html', 438, 420 ]
+326 silly gunzTarPerm extractEntry samples/bar-horizontal.html
+327 silly gunzTarPerm modified mode [ 'samples/bar-horizontal.html', 438, 420 ]
+328 silly gunzTarPerm extractEntry samples/line-stacked-area.html
+329 silly gunzTarPerm modified mode [ 'samples/line-stacked-area.html', 438, 420 ]
+330 silly gunzTarPerm extractEntry samples/line-x-axis-filter.html
+331 silly gunzTarPerm modified mode [ 'samples/line-x-axis-filter.html', 438, 420 ]
+332 silly gunzTarPerm extractEntry samples/line.html
+333 silly gunzTarPerm modified mode [ 'samples/line.html', 438, 420 ]
+334 silly gunzTarPerm extractEntry samples/pie-customTooltips.html
+335 silly gunzTarPerm modified mode [ 'samples/pie-customTooltips.html', 438, 420 ]
+336 silly gunzTarPerm extractEntry samples/pie.html
+337 silly gunzTarPerm modified mode [ 'samples/pie.html', 438, 420 ]
+338 silly gunzTarPerm extractEntry samples/polar-area.html
+339 silly gunzTarPerm modified mode [ 'samples/polar-area.html', 438, 420 ]
+340 silly gunzTarPerm extractEntry samples/radar-skip-points.html
+341 silly gunzTarPerm modified mode [ 'samples/radar-skip-points.html', 438, 420 ]
+342 silly gunzTarPerm extractEntry samples/radar.html
+343 silly gunzTarPerm modified mode [ 'samples/radar.html', 438, 420 ]
+344 silly gunzTarPerm extractEntry samples/scatter-logX.html
+345 silly gunzTarPerm modified mode [ 'samples/scatter-logX.html', 438, 420 ]
+346 silly gunzTarPerm extractEntry samples/scatter-multi-axis.html
+347 silly gunzTarPerm modified mode [ 'samples/scatter-multi-axis.html', 438, 420 ]
+348 silly gunzTarPerm extractEntry samples/scatter.html
+349 silly gunzTarPerm modified mode [ 'samples/scatter.html', 438, 420 ]
+350 silly gunzTarPerm extractEntry samples/timeScale/combo-time-scale.html
+351 silly gunzTarPerm modified mode [ 'samples/timeScale/combo-time-scale.html', 438, 420 ]
+352 silly gunzTarPerm extractEntry samples/timeScale/line-time-point-data.html
+353 silly gunzTarPerm modified mode [ 'samples/timeScale/line-time-point-data.html', 438, 420 ]
+354 silly gunzTarPerm extractEntry samples/timeScale/line-time-scale.html
+355 silly gunzTarPerm modified mode [ 'samples/timeScale/line-time-scale.html', 438, 420 ]
+356 silly gunzTarPerm extractEntry samples/tooltip-hooks.html
+357 silly gunzTarPerm modified mode [ 'samples/tooltip-hooks.html', 438, 420 ]
+358 silly gunzTarPerm extractEntry test/controller.bar.tests.js
+359 silly gunzTarPerm modified mode [ 'test/controller.bar.tests.js', 438, 420 ]
+360 silly gunzTarPerm extractEntry test/core.layoutService.tests.js
+361 silly gunzTarPerm modified mode [ 'test/core.layoutService.tests.js', 438, 420 ]
+362 silly gunzTarPerm extractEntry test/core.legend.tests.js
+363 silly gunzTarPerm modified mode [ 'test/core.legend.tests.js', 438, 420 ]
+364 silly gunzTarPerm extractEntry test/core.plugin.tests.js
+365 silly gunzTarPerm modified mode [ 'test/core.plugin.tests.js', 438, 420 ]
+366 silly gunzTarPerm extractEntry test/core.scaleService.tests.js
+367 silly gunzTarPerm modified mode [ 'test/core.scaleService.tests.js', 438, 420 ]
+368 silly gunzTarPerm extractEntry test/core.helpers.tests.js
+369 silly gunzTarPerm modified mode [ 'test/core.helpers.tests.js', 438, 420 ]
+370 silly gunzTarPerm extractEntry test/defaultConfig.tests.js
+371 silly gunzTarPerm modified mode [ 'test/defaultConfig.tests.js', 438, 420 ]
+372 silly gunzTarPerm extractEntry test/element.arc.tests.js
+373 silly gunzTarPerm modified mode [ 'test/element.arc.tests.js', 438, 420 ]
+374 silly gunzTarPerm extractEntry test/element.line.tests.js
+375 silly gunzTarPerm modified mode [ 'test/element.line.tests.js', 438, 420 ]
+376 silly gunzTarPerm extractEntry test/element.point.tests.js
+377 silly gunzTarPerm modified mode [ 'test/element.point.tests.js', 438, 420 ]
+378 silly gunzTarPerm extractEntry test/element.rectangle.tests.js
+379 silly gunzTarPerm modified mode [ 'test/element.rectangle.tests.js', 438, 420 ]
+380 silly gunzTarPerm extractEntry test/core.element.tests.js
+381 silly gunzTarPerm modified mode [ 'test/core.element.tests.js', 438, 420 ]
+382 silly gunzTarPerm extractEntry test/mockContext.js
+383 silly gunzTarPerm modified mode [ 'test/mockContext.js', 438, 420 ]
+384 silly gunzTarPerm extractEntry test/controller.radar.tests.js
+385 silly gunzTarPerm modified mode [ 'test/controller.radar.tests.js', 438, 420 ]
+386 silly gunzTarPerm extractEntry test/scale.category.tests.js
+387 silly gunzTarPerm modified mode [ 'test/scale.category.tests.js', 438, 420 ]
+388 silly gunzTarPerm extractEntry test/controller.polarArea.tests.js
+389 silly gunzTarPerm modified mode [ 'test/controller.polarArea.tests.js', 438, 420 ]
+390 silly gunzTarPerm extractEntry test/scale.linear.tests.js
+391 silly gunzTarPerm modified mode [ 'test/scale.linear.tests.js', 438, 420 ]
+392 silly gunzTarPerm extractEntry test/controller.line.tests.js
+393 silly gunzTarPerm modified mode [ 'test/controller.line.tests.js', 438, 420 ]
+394 silly gunzTarPerm extractEntry test/scale.logarithmic.tests.js
+395 silly gunzTarPerm modified mode [ 'test/scale.logarithmic.tests.js', 438, 420 ]
+396 silly gunzTarPerm extractEntry test/controller.doughnut.tests.js
+397 silly gunzTarPerm modified mode [ 'test/controller.doughnut.tests.js', 438, 420 ]
+398 silly gunzTarPerm extractEntry test/scale.radialLinear.tests.js
+399 silly gunzTarPerm modified mode [ 'test/scale.radialLinear.tests.js', 438, 420 ]
+400 silly gunzTarPerm extractEntry test/controller.bubble.tests.js
+401 silly gunzTarPerm modified mode [ 'test/controller.bubble.tests.js', 438, 420 ]
+402 silly gunzTarPerm extractEntry test/scale.time.tests.js
+403 silly gunzTarPerm modified mode [ 'test/scale.time.tests.js', 438, 420 ]
+404 silly gunzTarPerm extractEntry test/core.title.tests.js
+405 silly gunzTarPerm modified mode [ 'test/core.title.tests.js', 438, 420 ]
+406 verbose write writing to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/package.json
+407 info preinstall chart.js@2.1.3
+408 verbose readDependencies loading dependencies from /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/package.json
+409 silly prepareForInstallMany adding chartjs-color@^1.0.2 from chart.js dependencies
+410 silly prepareForInstallMany adding moment@^2.10.6 from chart.js dependencies
+411 verbose readDependencies loading dependencies from /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/package.json
+412 silly cache add args [ 'moment@^2.10.6', null ]
+413 verbose cache add spec moment@^2.10.6
+414 silly cache add parsed spec Result {
+414 silly cache add   raw: 'moment@^2.10.6',
+414 silly cache add   scope: null,
+414 silly cache add   name: 'moment',
+414 silly cache add   rawSpec: '^2.10.6',
+414 silly cache add   spec: '>=2.10.6 <3.0.0',
+414 silly cache add   type: 'range' }
+415 silly addNamed moment@>=2.10.6 <3.0.0
+416 verbose addNamed ">=2.10.6 <3.0.0" is a valid semver range for moment
+417 silly addNameRange { name: 'moment', range: '>=2.10.6 <3.0.0', hasData: false }
+418 silly mapToRegistry name moment
+419 silly mapToRegistry using default registry
+420 silly mapToRegistry registry https://registry.npmjs.org/
+421 silly mapToRegistry data Result {
+421 silly mapToRegistry   raw: 'moment',
+421 silly mapToRegistry   scope: null,
+421 silly mapToRegistry   name: 'moment',
+421 silly mapToRegistry   rawSpec: '',
+421 silly mapToRegistry   spec: 'latest',
+421 silly mapToRegistry   type: 'tag' }
+422 silly mapToRegistry uri https://registry.npmjs.org/moment
+423 verbose addNameRange registry:https://registry.npmjs.org/moment not in flight; fetching
+424 silly cache add args [ 'chartjs-color@^1.0.2', null ]
+425 verbose cache add spec chartjs-color@^1.0.2
+426 silly cache add parsed spec Result {
+426 silly cache add   raw: 'chartjs-color@^1.0.2',
+426 silly cache add   scope: null,
+426 silly cache add   name: 'chartjs-color',
+426 silly cache add   rawSpec: '^1.0.2',
+426 silly cache add   spec: '>=1.0.2 <2.0.0',
+426 silly cache add   type: 'range' }
+427 silly addNamed chartjs-color@>=1.0.2 <2.0.0
+428 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for chartjs-color
+429 silly addNameRange { name: 'chartjs-color',
+429 silly addNameRange   range: '>=1.0.2 <2.0.0',
+429 silly addNameRange   hasData: false }
+430 silly mapToRegistry name chartjs-color
+431 silly mapToRegistry using default registry
+432 silly mapToRegistry registry https://registry.npmjs.org/
+433 silly mapToRegistry data Result {
+433 silly mapToRegistry   raw: 'chartjs-color',
+433 silly mapToRegistry   scope: null,
+433 silly mapToRegistry   name: 'chartjs-color',
+433 silly mapToRegistry   rawSpec: '',
+433 silly mapToRegistry   spec: 'latest',
+433 silly mapToRegistry   type: 'tag' }
+434 silly mapToRegistry uri https://registry.npmjs.org/chartjs-color
+435 verbose addNameRange registry:https://registry.npmjs.org/chartjs-color not in flight; fetching
+436 verbose request uri https://registry.npmjs.org/chartjs-color
+437 verbose request no auth needed
+438 info attempt registry request try #1 at 2:46:45 PM
+439 verbose etag "DOBAZ2P3ZGHAJGHNULUOWLAPE"
+440 http request GET https://registry.npmjs.org/chartjs-color
+441 verbose request uri https://registry.npmjs.org/moment
+442 verbose request no auth needed
+443 info attempt registry request try #1 at 2:46:45 PM
+444 verbose etag "B81TMAZFNYG0WX3FNRH120WU2"
+445 http request GET https://registry.npmjs.org/moment
+446 http 304 https://registry.npmjs.org/moment
+447 verbose headers { date: 'Sun, 21 Aug 2016 07:46:45 GMT',
+447 verbose headers   via: '1.1 varnish',
+447 verbose headers   'cache-control': 'max-age=300',
+447 verbose headers   etag: '"B81TMAZFNYG0WX3FNRH120WU2"',
+447 verbose headers   age: '16',
+447 verbose headers   connection: 'keep-alive',
+447 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+447 verbose headers   'x-cache': 'HIT',
+447 verbose headers   'x-cache-hits': '2',
+447 verbose headers   'x-timer': 'S1471765605.291678,VS0,VE0',
+447 verbose headers   vary: 'Accept-Encoding' }
+448 silly get cb [ 304,
+448 silly get   { date: 'Sun, 21 Aug 2016 07:46:45 GMT',
+448 silly get     via: '1.1 varnish',
+448 silly get     'cache-control': 'max-age=300',
+448 silly get     etag: '"B81TMAZFNYG0WX3FNRH120WU2"',
+448 silly get     age: '16',
+448 silly get     connection: 'keep-alive',
+448 silly get     'x-served-by': 'cache-sin6924-SIN',
+448 silly get     'x-cache': 'HIT',
+448 silly get     'x-cache-hits': '2',
+448 silly get     'x-timer': 'S1471765605.291678,VS0,VE0',
+448 silly get     vary: 'Accept-Encoding' } ]
+449 verbose etag https://registry.npmjs.org/moment from cache
+450 verbose get saving moment to /Users/Admin/.npm/registry.npmjs.org/moment/.cache.json
+451 verbose correctMkdir /Users/Admin/.npm correctMkdir not in flight; initializing
+452 silly addNameRange number 2 { name: 'moment', range: '>=2.10.6 <3.0.0', hasData: true }
+453 silly addNameRange versions [ 'moment',
+453 silly addNameRange   [ '1.0.0',
+453 silly addNameRange     '1.0.1',
+453 silly addNameRange     '1.1.0',
+453 silly addNameRange     '1.1.1',
+453 silly addNameRange     '1.2.0',
+453 silly addNameRange     '1.3.0',
+453 silly addNameRange     '1.4.0',
+453 silly addNameRange     '1.5.0',
+453 silly addNameRange     '1.5.1',
+453 silly addNameRange     '1.6.0',
+453 silly addNameRange     '1.6.1',
+453 silly addNameRange     '1.6.2',
+453 silly addNameRange     '1.7.0',
+453 silly addNameRange     '1.7.1',
+453 silly addNameRange     '1.7.2',
+453 silly addNameRange     '2.0.0',
+453 silly addNameRange     '2.1.0',
+453 silly addNameRange     '2.2.1',
+453 silly addNameRange     '2.3.0',
+453 silly addNameRange     '2.3.1',
+453 silly addNameRange     '2.4.0',
+453 silly addNameRange     '2.5.0',
+453 silly addNameRange     '2.5.1',
+453 silly addNameRange     '2.6.0',
+453 silly addNameRange     '2.7.0',
+453 silly addNameRange     '2.8.1',
+453 silly addNameRange     '2.8.2',
+453 silly addNameRange     '2.8.3',
+453 silly addNameRange     '2.8.4',
+453 silly addNameRange     '2.9.0',
+453 silly addNameRange     '2.10.2',
+453 silly addNameRange     '2.10.3',
+453 silly addNameRange     '2.10.5',
+453 silly addNameRange     '2.10.6',
+453 silly addNameRange     '2.11.0',
+453 silly addNameRange     '2.11.1',
+453 silly addNameRange     '2.11.2',
+453 silly addNameRange     '2.12.0',
+453 silly addNameRange     '2.13.0',
+453 silly addNameRange     '2.14.0',
+453 silly addNameRange     '2.14.1' ] ]
+454 silly addNamed moment@2.14.1
+455 verbose addNamed "2.14.1" is a plain semver version for moment
+456 silly cache afterAdd moment@2.14.1
+457 verbose afterAdd /Users/Admin/.npm/moment/2.14.1/package/package.json not in flight; writing
+458 verbose correctMkdir /Users/Admin/.npm correctMkdir not in flight; initializing
+459 verbose afterAdd /Users/Admin/.npm/moment/2.14.1/package/package.json written
+460 http 304 https://registry.npmjs.org/chartjs-color
+461 verbose headers { date: 'Sun, 21 Aug 2016 07:46:45 GMT',
+461 verbose headers   via: '1.1 varnish',
+461 verbose headers   'cache-control': 'max-age=300',
+461 verbose headers   etag: '"DOBAZ2P3ZGHAJGHNULUOWLAPE"',
+461 verbose headers   age: '0',
+461 verbose headers   connection: 'keep-alive',
+461 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+461 verbose headers   'x-cache': 'HIT',
+461 verbose headers   'x-cache-hits': '1',
+461 verbose headers   'x-timer': 'S1471765605.209010,VS0,VE1007',
+461 verbose headers   vary: 'Accept-Encoding' }
+462 silly get cb [ 304,
+462 silly get   { date: 'Sun, 21 Aug 2016 07:46:45 GMT',
+462 silly get     via: '1.1 varnish',
+462 silly get     'cache-control': 'max-age=300',
+462 silly get     etag: '"DOBAZ2P3ZGHAJGHNULUOWLAPE"',
+462 silly get     age: '0',
+462 silly get     connection: 'keep-alive',
+462 silly get     'x-served-by': 'cache-sin6920-SIN',
+462 silly get     'x-cache': 'HIT',
+462 silly get     'x-cache-hits': '1',
+462 silly get     'x-timer': 'S1471765605.209010,VS0,VE1007',
+462 silly get     vary: 'Accept-Encoding' } ]
+463 verbose etag https://registry.npmjs.org/chartjs-color from cache
+464 verbose get saving chartjs-color to /Users/Admin/.npm/registry.npmjs.org/chartjs-color/.cache.json
+465 verbose correctMkdir /Users/Admin/.npm correctMkdir not in flight; initializing
+466 silly addNameRange number 2 { name: 'chartjs-color', range: '>=1.0.2 <2.0.0', hasData: true }
+467 silly addNameRange versions [ 'chartjs-color',
+467 silly addNameRange   [ '0.8.2', '1.0.2', '1.0.21', '1.0.22', '2.0.0' ] ]
+468 silly addNamed chartjs-color@1.0.22
+469 verbose addNamed "1.0.22" is a plain semver version for chartjs-color
+470 silly cache afterAdd chartjs-color@1.0.22
+471 verbose afterAdd /Users/Admin/.npm/chartjs-color/1.0.22/package/package.json not in flight; writing
+472 verbose correctMkdir /Users/Admin/.npm correctMkdir not in flight; initializing
+473 verbose afterAdd /Users/Admin/.npm/chartjs-color/1.0.22/package/package.json written
+474 silly install resolved [ { name: 'moment',
+474 silly install resolved     version: '2.14.1',
+474 silly install resolved     description: 'Parse, validate, manipulate, and display dates',
+474 silly install resolved     homepage: 'http://momentjs.com',
+474 silly install resolved     author:
+474 silly install resolved      { name: 'Iskren Ivov Chernev',
+474 silly install resolved        email: 'iskren.chernev@gmail.com',
+474 silly install resolved        url: 'https://github.com/ichernev' },
+474 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+474 silly install resolved     keywords:
+474 silly install resolved      [ 'moment',
+474 silly install resolved        'date',
+474 silly install resolved        'time',
+474 silly install resolved        'parse',
+474 silly install resolved        'format',
+474 silly install resolved        'validate',
+474 silly install resolved        'i18n',
+474 silly install resolved        'l10n',
+474 silly install resolved        'ender' ],
+474 silly install resolved     main: './moment.js',
+474 silly install resolved     'jsnext:main': './src/moment.js',
+474 silly install resolved     typings: './moment.d.ts',
+474 silly install resolved     engines: { node: '*' },
+474 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/moment/moment.git' },
+474 silly install resolved     bugs: { url: 'https://github.com/moment/moment/issues' },
+474 silly install resolved     license: 'MIT',
+474 silly install resolved     devDependencies:
+474 silly install resolved      { 'uglify-js': 'latest',
+474 silly install resolved        'es6-promise': 'latest',
+474 silly install resolved        grunt: '~0.4',
+474 silly install resolved        'grunt-cli': 'latest',
+474 silly install resolved        benchmark: 'latest',
+474 silly install resolved        esperanto: 'latest',
+474 silly install resolved        'grunt-contrib-clean': 'latest',
+474 silly install resolved        'grunt-contrib-concat': 'latest',
+474 silly install resolved        'grunt-contrib-copy': 'latest',
+474 silly install resolved        'grunt-contrib-jshint': 'latest',
+474 silly install resolved        'grunt-contrib-uglify': 'latest',
+474 silly install resolved        'grunt-contrib-watch': 'latest',
+474 silly install resolved        'grunt-env': 'latest',
+474 silly install resolved        'grunt-jscs': 'latest',
+474 silly install resolved        'grunt-karma': 'latest',
+474 silly install resolved        'grunt-nuget': 'latest',
+474 silly install resolved        'grunt-benchmark': 'latest',
+474 silly install resolved        'grunt-string-replace': 'latest',
+474 silly install resolved        'grunt-exec': 'latest',
+474 silly install resolved        'load-grunt-tasks': 'latest',
+474 silly install resolved        karma: 'latest',
+474 silly install resolved        'karma-chrome-launcher': 'latest',
+474 silly install resolved        'karma-firefox-launcher': 'latest',
+474 silly install resolved        'karma-qunit': 'latest',
+474 silly install resolved        'karma-sauce-launcher': 'latest',
+474 silly install resolved        qunit: '^0.7.5',
+474 silly install resolved        'qunit-cli': '^0.1.4',
+474 silly install resolved        spacejam: 'latest',
+474 silly install resolved        coveralls: '^2.11.2',
+474 silly install resolved        nyc: '^2.1.4' },
+474 silly install resolved     ender: './ender.js',
+474 silly install resolved     dojoBuild: 'package.js',
+474 silly install resolved     jspm: { files: [Object], map: [Object], buildConfig: [Object] },
+474 silly install resolved     scripts:
+474 silly install resolved      { test: 'grunt test',
+474 silly install resolved        coverage: 'nyc npm test && nyc report',
+474 silly install resolved        coveralls: 'nyc npm test && nyc report --reporter=text-lcov | coveralls' },
+474 silly install resolved     spm: { main: 'moment.js', output: [Object] },
+474 silly install resolved     _id: 'moment@2.14.1',
+474 silly install resolved     _shasum: 'b35b27c47e57ed2ddc70053d6b07becdb291741c',
+474 silly install resolved     _from: 'moment@>=2.10.6 <3.0.0',
+474 silly install resolved     _npmVersion: '3.8.6',
+474 silly install resolved     _nodeVersion: '6.1.0',
+474 silly install resolved     _npmUser: { name: 'ichernev', email: 'iskren.chernev@gmail.com' },
+474 silly install resolved     dist:
+474 silly install resolved      { shasum: 'b35b27c47e57ed2ddc70053d6b07becdb291741c',
+474 silly install resolved        tarball: 'https://registry.npmjs.org/moment/-/moment-2.14.1.tgz' },
+474 silly install resolved     maintainers: [ [Object], [Object] ],
+474 silly install resolved     _npmOperationalInternal:
+474 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+474 silly install resolved        tmp: 'tmp/moment-2.14.1.tgz_1467614674915_0.32715084473602474' },
+474 silly install resolved     directories: {},
+474 silly install resolved     _resolved: 'https://registry.npmjs.org/moment/-/moment-2.14.1.tgz',
+474 silly install resolved     readme: 'ERROR: No README data found!' },
+474 silly install resolved   { name: 'chartjs-color',
+474 silly install resolved     version: '1.0.22',
+474 silly install resolved     description: 'Color conversion and manipulation with CSS string support',
+474 silly install resolved     main: 'src/color.js',
+474 silly install resolved     keywords: [ 'color', 'colour', 'css' ],
+474 silly install resolved     authors: [ 'Heather Arthur <fayearthur@gmail.com>', 'Maxime Thirouin' ],
+474 silly install resolved     license: 'MIT',
+474 silly install resolved     repository:
+474 silly install resolved      { type: 'git',
+474 silly install resolved        url: 'git+ssh://git@github.com/harthur/color.git' },
+474 silly install resolved     files: [ 'CHANGELOG.md', 'LICENSE', 'dist/', 'src/' ],
+474 silly install resolved     scripts: { test: 'node test' },
+474 silly install resolved     dependencies: { 'color-convert': '^0.5.0', 'chartjs-color-string': '^0.4.0' },
+474 silly install resolved     devDependencies:
+474 silly install resolved      { browserify: '^10.1.3',
+474 silly install resolved        gulp: '^3.8.11',
+474 silly install resolved        'gulp-rename': '^1.2.2',
+474 silly install resolved        'gulp-uglify': '^1.2.0',
+474 silly install resolved        'vinyl-buffer': '^1.0.0',
+474 silly install resolved        'vinyl-source-stream': '^1.1.0' },
+474 silly install resolved     gitHead: '602fd44df82014248780591a2ba5c499fd5b9649',
+474 silly install resolved     bugs: { url: 'https://github.com/harthur/color/issues' },
+474 silly install resolved     homepage: 'https://github.com/harthur/color#readme',
+474 silly install resolved     _id: 'chartjs-color@1.0.22',
+474 silly install resolved     _shasum: 'a99b0f74d6078f0ffca41788433e14d8144c7a2c',
+474 silly install resolved     _from: 'chartjs-color@>=1.0.2 <2.0.0',
+474 silly install resolved     _npmVersion: '3.6.0',
+474 silly install resolved     _nodeVersion: '5.6.0',
+474 silly install resolved     _npmUser: { name: 'etimberg', email: 'evert.timberg+npm@gmail.com' },
+474 silly install resolved     dist:
+474 silly install resolved      { shasum: 'a99b0f74d6078f0ffca41788433e14d8144c7a2c',
+474 silly install resolved        tarball: 'https://registry.npmjs.org/chartjs-color/-/chartjs-color-1.0.22.tgz' },
+474 silly install resolved     maintainers: [ [Object] ],
+474 silly install resolved     _npmOperationalInternal:
+474 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+474 silly install resolved        tmp: 'tmp/chartjs-color-1.0.22.tgz_1461970203336_0.6161247387062758' },
+474 silly install resolved     directories: {},
+474 silly install resolved     _resolved: 'https://registry.npmjs.org/chartjs-color/-/chartjs-color-1.0.22.tgz',
+474 silly install resolved     readme: 'ERROR: No README data found!' } ]
+475 info install moment@2.14.1 into /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js
+476 info install chartjs-color@1.0.22 into /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js
+477 info installOne moment@2.14.1
+478 verbose installOne of moment to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js not in flight; installing
+479 verbose correctMkdir /Users/Admin/.npm/_locks correctMkdir not in flight; initializing
+480 info installOne chartjs-color@1.0.22
+481 verbose installOne of chartjs-color to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js not in flight; installing
+482 verbose correctMkdir /Users/Admin/.npm/_locks correctMkdir not in flight; initializing
+483 verbose lock using /Users/Admin/.npm/_locks/moment-55b2b4a6863a1997.lock for /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/moment
+484 silly install write writing moment 2.14.1 to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/moment
+485 verbose lock using /Users/Admin/.npm/_locks/chartjs-color-0266574a30bc12e8.lock for /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color
+486 silly install write writing chartjs-color 1.0.22 to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color
+487 verbose unbuild node_modules/ng2-charts/node_modules/chart.js/node_modules/moment
+488 verbose unbuild node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color
+489 silly gentlyRm /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/moment is being purged from base /Users/Admin/TMS-test1
+490 verbose gentlyRm don't care about contents; nuking /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/moment
+491 verbose tar unpack /Users/Admin/.npm/moment/2.14.1/package.tgz
+492 verbose tar unpacking to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/moment
+493 silly gentlyRm /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/moment is being purged
+494 verbose gentlyRm don't care about contents; nuking /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/moment
+495 silly gentlyRm /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color is being purged from base /Users/Admin/TMS-test1
+496 verbose gentlyRm don't care about contents; nuking /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color
+497 silly gunzTarPerm modes [ '755', '644' ]
+498 verbose tar unpack /Users/Admin/.npm/chartjs-color/1.0.22/package.tgz
+499 verbose tar unpacking to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color
+500 silly gentlyRm /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color is being purged
+501 verbose gentlyRm don't care about contents; nuking /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color
+502 silly gunzTarPerm modes [ '755', '644' ]
+503 silly gunzTarPerm extractEntry package.json
+504 silly gunzTarPerm extractEntry .npmignore
+505 silly gunzTarPerm extractEntry README.md
+506 silly gunzTarPerm extractEntry LICENSE
+507 silly gunzTarPerm extractEntry ender.js
+508 silly gunzTarPerm extractEntry moment.js
+509 silly gunzTarPerm extractEntry package.js
+510 silly gunzTarPerm extractEntry moment.d.ts
+511 silly gunzTarPerm extractEntry src/moment.js
+512 silly gunzTarPerm extractEntry src/lib/create/check-overflow.js
+513 silly gunzTarPerm extractEntry src/lib/create/from-anything.js
+514 silly gunzTarPerm extractEntry src/lib/create/from-array.js
+515 silly gunzTarPerm extractEntry src/lib/create/from-object.js
+516 silly gunzTarPerm extractEntry src/lib/create/from-string-and-array.js
+517 silly gunzTarPerm extractEntry src/lib/create/date-from-array.js
+518 silly gunzTarPerm extractEntry src/lib/create/from-string.js
+519 silly gunzTarPerm extractEntry src/lib/create/local.js
+520 silly gunzTarPerm extractEntry src/lib/create/parsing-flags.js
+521 silly gunzTarPerm extractEntry src/lib/create/utc.js
+522 silly gunzTarPerm extractEntry src/lib/create/valid.js
+523 silly gunzTarPerm extractEntry src/lib/create/from-string-and-format.js
+524 silly gunzTarPerm extractEntry src/lib/duration/abs.js
+525 silly gunzTarPerm extractEntry package.json
+526 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+527 silly gunzTarPerm extractEntry src/lib/duration/as.js
+528 silly gunzTarPerm extractEntry src/lib/duration/bubble.js
+529 silly gunzTarPerm extractEntry README.md
+530 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+531 silly gunzTarPerm extractEntry LICENSE
+532 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+533 silly gunzTarPerm extractEntry src/lib/duration/constructor.js
+534 silly gunzTarPerm extractEntry src/lib/duration/add-subtract.js
+535 silly gunzTarPerm extractEntry src/lib/duration/duration.js
+536 silly gunzTarPerm extractEntry dist/color.js
+537 silly gunzTarPerm modified mode [ 'dist/color.js', 438, 420 ]
+538 silly gunzTarPerm extractEntry dist/color.min.js
+539 silly gunzTarPerm modified mode [ 'dist/color.min.js', 438, 420 ]
+540 silly gunzTarPerm extractEntry src/color.js
+541 silly gunzTarPerm modified mode [ 'src/color.js', 438, 420 ]
+542 silly gunzTarPerm extractEntry CHANGELOG.md
+543 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 438, 420 ]
+544 silly gunzTarPerm extractEntry src/lib/duration/get.js
+545 silly gunzTarPerm extractEntry src/lib/duration/humanize.js
+546 silly gunzTarPerm extractEntry src/lib/duration/iso-string.js
+547 silly gunzTarPerm extractEntry src/lib/duration/prototype.js
+548 silly gunzTarPerm extractEntry src/lib/duration/create.js
+549 silly gunzTarPerm extractEntry src/lib/format/format.js
+550 silly gunzTarPerm extractEntry src/lib/locale/base-config.js
+551 silly gunzTarPerm extractEntry src/lib/locale/en.js
+552 silly gunzTarPerm extractEntry src/lib/locale/formats.js
+553 silly gunzTarPerm extractEntry src/lib/locale/invalid.js
+554 silly gunzTarPerm extractEntry src/lib/locale/lists.js
+555 silly gunzTarPerm extractEntry src/lib/locale/constructor.js
+556 silly gunzTarPerm extractEntry src/lib/locale/locales.js
+557 silly gunzTarPerm extractEntry src/lib/locale/ordinal.js
+558 verbose write writing to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/package.json
+559 silly gunzTarPerm extractEntry src/lib/locale/pre-post-format.js
+560 silly gunzTarPerm extractEntry src/lib/locale/prototype.js
+561 info preinstall chartjs-color@1.0.22
+562 verbose readDependencies loading dependencies from /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/package.json
+563 silly gunzTarPerm extractEntry src/lib/locale/relative.js
+564 silly gunzTarPerm extractEntry src/lib/locale/calendar.js
+565 silly prepareForInstallMany adding color-convert@^0.5.0 from chartjs-color dependencies
+566 silly prepareForInstallMany adding chartjs-color-string@^0.4.0 from chartjs-color dependencies
+567 verbose readDependencies loading dependencies from /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/package.json
+568 silly gunzTarPerm extractEntry src/lib/locale/set.js
+569 silly gunzTarPerm extractEntry src/lib/locale/locale.js
+570 silly cache add args [ 'color-convert@^0.5.0', null ]
+571 verbose cache add spec color-convert@^0.5.0
+572 silly cache add args [ 'chartjs-color-string@^0.4.0', null ]
+573 verbose cache add spec chartjs-color-string@^0.4.0
+574 silly cache add parsed spec Result {
+574 silly cache add   raw: 'color-convert@^0.5.0',
+574 silly cache add   scope: null,
+574 silly cache add   name: 'color-convert',
+574 silly cache add   rawSpec: '^0.5.0',
+574 silly cache add   spec: '>=0.5.0 <0.6.0',
+574 silly cache add   type: 'range' }
+575 silly addNamed color-convert@>=0.5.0 <0.6.0
+576 verbose addNamed ">=0.5.0 <0.6.0" is a valid semver range for color-convert
+577 silly addNameRange { name: 'color-convert',
+577 silly addNameRange   range: '>=0.5.0 <0.6.0',
+577 silly addNameRange   hasData: false }
+578 silly mapToRegistry name color-convert
+579 silly mapToRegistry using default registry
+580 silly mapToRegistry registry https://registry.npmjs.org/
+581 silly mapToRegistry data Result {
+581 silly mapToRegistry   raw: 'color-convert',
+581 silly mapToRegistry   scope: null,
+581 silly mapToRegistry   name: 'color-convert',
+581 silly mapToRegistry   rawSpec: '',
+581 silly mapToRegistry   spec: 'latest',
+581 silly mapToRegistry   type: 'tag' }
+582 silly mapToRegistry uri https://registry.npmjs.org/color-convert
+583 verbose addNameRange registry:https://registry.npmjs.org/color-convert not in flight; fetching
+584 silly cache add parsed spec Result {
+584 silly cache add   raw: 'chartjs-color-string@^0.4.0',
+584 silly cache add   scope: null,
+584 silly cache add   name: 'chartjs-color-string',
+584 silly cache add   rawSpec: '^0.4.0',
+584 silly cache add   spec: '>=0.4.0 <0.5.0',
+584 silly cache add   type: 'range' }
+585 silly addNamed chartjs-color-string@>=0.4.0 <0.5.0
+586 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for chartjs-color-string
+587 silly addNameRange { name: 'chartjs-color-string',
+587 silly addNameRange   range: '>=0.4.0 <0.5.0',
+587 silly addNameRange   hasData: false }
+588 silly mapToRegistry name chartjs-color-string
+589 silly mapToRegistry using default registry
+590 silly mapToRegistry registry https://registry.npmjs.org/
+591 silly mapToRegistry data Result {
+591 silly mapToRegistry   raw: 'chartjs-color-string',
+591 silly mapToRegistry   scope: null,
+591 silly mapToRegistry   name: 'chartjs-color-string',
+591 silly mapToRegistry   rawSpec: '',
+591 silly mapToRegistry   spec: 'latest',
+591 silly mapToRegistry   type: 'tag' }
+592 silly mapToRegistry uri https://registry.npmjs.org/chartjs-color-string
+593 verbose addNameRange registry:https://registry.npmjs.org/chartjs-color-string not in flight; fetching
+594 silly gunzTarPerm extractEntry src/lib/moment/add-subtract.js
+595 silly gunzTarPerm extractEntry src/lib/moment/diff.js
+596 silly gunzTarPerm extractEntry src/lib/moment/format.js
+597 silly gunzTarPerm extractEntry src/lib/moment/from.js
+598 silly gunzTarPerm extractEntry src/lib/moment/creation-data.js
+599 silly gunzTarPerm extractEntry src/lib/moment/locale.js
+600 silly gunzTarPerm extractEntry src/lib/moment/min-max.js
+601 silly gunzTarPerm extractEntry src/lib/moment/moment.js
+602 silly gunzTarPerm extractEntry src/lib/moment/now.js
+603 silly gunzTarPerm extractEntry src/lib/moment/prototype.js
+604 silly gunzTarPerm extractEntry src/lib/moment/constructor.js
+605 silly gunzTarPerm extractEntry src/lib/moment/start-end-of.js
+606 silly gunzTarPerm extractEntry src/lib/moment/compare.js
+607 silly gunzTarPerm extractEntry src/lib/moment/to-type.js
+608 silly gunzTarPerm extractEntry src/lib/moment/clone.js
+609 silly gunzTarPerm extractEntry src/lib/moment/to.js
+610 silly gunzTarPerm extractEntry src/lib/moment/calendar.js
+611 silly gunzTarPerm extractEntry src/lib/moment/valid.js
+612 silly gunzTarPerm extractEntry src/lib/moment/get-set.js
+613 silly gunzTarPerm extractEntry src/lib/parse/regex.js
+614 silly gunzTarPerm extractEntry src/lib/parse/token.js
+615 silly gunzTarPerm extractEntry src/lib/units/aliases.js
+616 silly gunzTarPerm extractEntry src/lib/units/millisecond.js
+617 silly gunzTarPerm extractEntry src/lib/units/minute.js
+618 silly gunzTarPerm extractEntry src/lib/units/month.js
+619 silly gunzTarPerm extractEntry src/lib/units/offset.js
+620 silly gunzTarPerm extractEntry src/lib/units/hour.js
+621 silly gunzTarPerm extractEntry src/lib/units/quarter.js
+622 silly gunzTarPerm extractEntry src/lib/units/second.js
+623 silly gunzTarPerm extractEntry src/lib/units/timestamp.js
+624 silly gunzTarPerm extractEntry src/lib/units/timezone.js
+625 silly gunzTarPerm extractEntry src/lib/units/units.js
+626 silly gunzTarPerm extractEntry src/lib/units/day-of-year.js
+627 silly gunzTarPerm extractEntry src/lib/units/week-calendar-utils.js
+628 silly gunzTarPerm extractEntry src/lib/units/day-of-week.js
+629 silly gunzTarPerm extractEntry src/lib/units/week-year.js
+630 silly gunzTarPerm extractEntry src/lib/units/day-of-month.js
+631 silly gunzTarPerm extractEntry src/lib/units/week.js
+632 silly gunzTarPerm extractEntry src/lib/units/constants.js
+633 silly gunzTarPerm extractEntry src/lib/units/year.js
+634 silly gunzTarPerm extractEntry src/lib/units/priorities.js
+635 silly gunzTarPerm extractEntry src/lib/utils/abs-ceil.js
+636 silly gunzTarPerm extractEntry src/lib/utils/has-own-prop.js
+637 silly gunzTarPerm extractEntry src/lib/utils/hooks.js
+638 silly gunzTarPerm extractEntry src/lib/utils/index-of.js
+639 silly gunzTarPerm extractEntry src/lib/utils/extend.js
+640 silly gunzTarPerm extractEntry src/lib/utils/is-date.js
+641 silly gunzTarPerm extractEntry src/lib/utils/is-function.js
+642 silly gunzTarPerm extractEntry src/lib/utils/is-object-empty.js
+643 silly gunzTarPerm extractEntry src/lib/utils/is-object.js
+644 silly gunzTarPerm extractEntry src/lib/utils/is-undefined.js
+645 silly gunzTarPerm extractEntry src/lib/utils/deprecate.js
+646 silly gunzTarPerm extractEntry src/lib/utils/keys.js
+647 silly gunzTarPerm extractEntry src/lib/utils/defaults.js
+648 silly gunzTarPerm extractEntry src/lib/utils/map.js
+649 silly gunzTarPerm extractEntry src/lib/utils/compare-arrays.js
+650 silly gunzTarPerm extractEntry src/lib/utils/some.js
+651 silly gunzTarPerm extractEntry src/lib/utils/abs-round.js
+652 silly gunzTarPerm extractEntry src/lib/utils/to-int.js
+653 silly gunzTarPerm extractEntry src/lib/utils/abs-floor.js
+654 silly gunzTarPerm extractEntry src/lib/utils/zero-fill.js
+655 silly gunzTarPerm extractEntry src/lib/utils/is-array.js
+656 silly gunzTarPerm extractEntry src/locale/af.js
+657 silly gunzTarPerm extractEntry src/locale/it.js
+658 silly gunzTarPerm extractEntry src/locale/ja.js
+659 silly gunzTarPerm extractEntry src/locale/jv.js
+660 verbose request uri https://registry.npmjs.org/chartjs-color-string
+661 verbose request no auth needed
+662 info attempt registry request try #1 at 2:46:46 PM
+663 verbose etag "4Z2R1EDX411FVZW0QDF3M3ZZU"
+664 http request GET https://registry.npmjs.org/chartjs-color-string
+665 silly gunzTarPerm extractEntry src/locale/is.js
+666 silly gunzTarPerm extractEntry src/locale/kk.js
+667 silly gunzTarPerm extractEntry src/locale/km.js
+668 silly gunzTarPerm extractEntry src/locale/ko.js
+669 verbose request uri https://registry.npmjs.org/color-convert
+670 verbose request no auth needed
+671 info attempt registry request try #1 at 2:46:46 PM
+672 verbose etag "B372RQ22G5ISBL1VWFQIG5OPG"
+673 http request GET https://registry.npmjs.org/color-convert
+674 silly gunzTarPerm extractEntry src/locale/ky.js
+675 silly gunzTarPerm extractEntry src/locale/lb.js
+676 silly gunzTarPerm extractEntry src/locale/id.js
+677 silly gunzTarPerm extractEntry src/locale/lo.js
+678 silly gunzTarPerm extractEntry src/locale/hy-am.js
+679 silly gunzTarPerm extractEntry src/locale/lt.js
+680 silly gunzTarPerm extractEntry src/locale/hu.js
+681 silly gunzTarPerm extractEntry src/locale/lv.js
+682 silly gunzTarPerm extractEntry src/locale/hr.js
+683 silly gunzTarPerm extractEntry src/locale/me.js
+684 silly gunzTarPerm extractEntry src/locale/hi.js
+685 silly gunzTarPerm extractEntry src/locale/mk.js
+686 silly gunzTarPerm extractEntry src/locale/he.js
+687 silly gunzTarPerm extractEntry src/locale/ml.js
+688 silly gunzTarPerm extractEntry src/locale/gl.js
+689 silly gunzTarPerm extractEntry src/locale/mr.js
+690 silly gunzTarPerm extractEntry src/locale/gd.js
+691 silly gunzTarPerm extractEntry src/locale/ms-my.js
+692 silly gunzTarPerm extractEntry src/locale/fy.js
+693 silly gunzTarPerm extractEntry src/locale/ms.js
+694 silly gunzTarPerm extractEntry src/locale/fr.js
+695 silly gunzTarPerm extractEntry src/locale/my.js
+696 silly gunzTarPerm extractEntry src/locale/fr-ch.js
+697 silly gunzTarPerm extractEntry src/locale/nb.js
+698 silly gunzTarPerm extractEntry src/locale/fr-ca.js
+699 silly gunzTarPerm extractEntry src/locale/ne.js
+700 silly gunzTarPerm extractEntry src/locale/fo.js
+701 silly gunzTarPerm extractEntry src/locale/nl.js
+702 silly gunzTarPerm extractEntry src/locale/fi.js
+703 silly gunzTarPerm extractEntry src/locale/nn.js
+704 silly gunzTarPerm extractEntry src/locale/fa.js
+705 silly gunzTarPerm extractEntry src/locale/pa-in.js
+706 silly gunzTarPerm extractEntry src/locale/eu.js
+707 silly gunzTarPerm extractEntry src/locale/pl.js
+708 silly gunzTarPerm extractEntry src/locale/et.js
+709 silly gunzTarPerm extractEntry src/locale/pt-br.js
+710 silly gunzTarPerm extractEntry src/locale/es.js
+711 silly gunzTarPerm extractEntry src/locale/pt.js
+712 silly gunzTarPerm extractEntry src/locale/es-do.js
+713 silly gunzTarPerm extractEntry src/locale/ro.js
+714 silly gunzTarPerm extractEntry src/locale/eo.js
+715 silly gunzTarPerm extractEntry src/locale/ru.js
+716 silly gunzTarPerm extractEntry src/locale/en-nz.js
+717 silly gunzTarPerm extractEntry src/locale/se.js
+718 silly gunzTarPerm extractEntry src/locale/en-ie.js
+719 silly gunzTarPerm extractEntry src/locale/si.js
+720 silly gunzTarPerm extractEntry src/locale/en-gb.js
+721 silly gunzTarPerm extractEntry src/locale/sk.js
+722 silly gunzTarPerm extractEntry src/locale/en-ca.js
+723 silly gunzTarPerm extractEntry src/locale/sl.js
+724 silly gunzTarPerm extractEntry src/locale/en-au.js
+725 silly gunzTarPerm extractEntry src/locale/sq.js
+726 silly gunzTarPerm extractEntry src/locale/el.js
+727 silly gunzTarPerm extractEntry src/locale/sr-cyrl.js
+728 silly gunzTarPerm extractEntry src/locale/dv.js
+729 silly gunzTarPerm extractEntry src/locale/sr.js
+730 silly gunzTarPerm extractEntry src/locale/de.js
+731 silly gunzTarPerm extractEntry src/locale/ss.js
+732 silly gunzTarPerm extractEntry src/locale/de-at.js
+733 silly gunzTarPerm extractEntry src/locale/sv.js
+734 silly gunzTarPerm extractEntry src/locale/da.js
+735 silly gunzTarPerm extractEntry src/locale/sw.js
+736 silly gunzTarPerm extractEntry src/locale/cy.js
+737 silly gunzTarPerm extractEntry src/locale/ta.js
+738 silly gunzTarPerm extractEntry src/locale/cv.js
+739 silly gunzTarPerm extractEntry src/locale/te.js
+740 silly gunzTarPerm extractEntry src/locale/cs.js
+741 silly gunzTarPerm extractEntry src/locale/th.js
+742 silly gunzTarPerm extractEntry src/locale/ca.js
+743 silly gunzTarPerm extractEntry src/locale/tl-ph.js
+744 http 304 https://registry.npmjs.org/color-convert
+745 verbose headers { date: 'Sun, 21 Aug 2016 07:46:46 GMT',
+745 verbose headers   via: '1.1 varnish',
+745 verbose headers   'cache-control': 'max-age=300',
+745 verbose headers   etag: '"B372RQ22G5ISBL1VWFQIG5OPG"',
+745 verbose headers   age: '218',
+745 verbose headers   connection: 'keep-alive',
+745 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+745 verbose headers   'x-cache': 'HIT',
+745 verbose headers   'x-cache-hits': '2',
+745 verbose headers   'x-timer': 'S1471765606.415179,VS0,VE0',
+745 verbose headers   vary: 'Accept-Encoding' }
+746 silly get cb [ 304,
+746 silly get   { date: 'Sun, 21 Aug 2016 07:46:46 GMT',
+746 silly get     via: '1.1 varnish',
+746 silly get     'cache-control': 'max-age=300',
+746 silly get     etag: '"B372RQ22G5ISBL1VWFQIG5OPG"',
+746 silly get     age: '218',
+746 silly get     connection: 'keep-alive',
+746 silly get     'x-served-by': 'cache-sin6920-SIN',
+746 silly get     'x-cache': 'HIT',
+746 silly get     'x-cache-hits': '2',
+746 silly get     'x-timer': 'S1471765606.415179,VS0,VE0',
+746 silly get     vary: 'Accept-Encoding' } ]
+747 verbose etag https://registry.npmjs.org/color-convert from cache
+748 verbose get saving color-convert to /Users/Admin/.npm/registry.npmjs.org/color-convert/.cache.json
+749 verbose correctMkdir /Users/Admin/.npm correctMkdir not in flight; initializing
+750 silly gunzTarPerm extractEntry src/locale/bs.js
+751 silly gunzTarPerm extractEntry src/locale/tlh.js
+752 silly addNameRange number 2 { name: 'color-convert', range: '>=0.5.0 <0.6.0', hasData: true }
+753 silly addNameRange versions [ 'color-convert',
+753 silly addNameRange   [ '0.1.0',
+753 silly addNameRange     '0.2.0',
+753 silly addNameRange     '0.2.1',
+753 silly addNameRange     '0.3.0',
+753 silly addNameRange     '0.3.1',
+753 silly addNameRange     '0.3.4',
+753 silly addNameRange     '0.4.0',
+753 silly addNameRange     '0.5.0',
+753 silly addNameRange     '0.5.1',
+753 silly addNameRange     '0.5.2',
+753 silly addNameRange     '0.5.3',
+753 silly addNameRange     '0.6.0',
+753 silly addNameRange     '0.7.0',
+753 silly addNameRange     '1.0.0',
+753 silly addNameRange     '1.1.0',
+753 silly addNameRange     '1.1.1',
+753 silly addNameRange     '1.1.2',
+753 silly addNameRange     '1.2.0',
+753 silly addNameRange     '1.2.1',
+753 silly addNameRange     '1.2.2',
+753 silly addNameRange     '1.3.0',
+753 silly addNameRange     '1.3.1',
+753 silly addNameRange     '1.4.0' ] ]
+754 silly addNamed color-convert@0.5.3
+755 verbose addNamed "0.5.3" is a plain semver version for color-convert
+756 silly gunzTarPerm extractEntry src/locale/br.js
+757 silly gunzTarPerm extractEntry src/locale/tr.js
+758 silly cache afterAdd color-convert@0.5.3
+759 verbose afterAdd /Users/Admin/.npm/color-convert/0.5.3/package/package.json not in flight; writing
+760 verbose correctMkdir /Users/Admin/.npm correctMkdir not in flight; initializing
+761 silly gunzTarPerm extractEntry src/locale/bo.js
+762 silly gunzTarPerm extractEntry src/locale/tzl.js
+763 verbose afterAdd /Users/Admin/.npm/color-convert/0.5.3/package/package.json written
+764 silly gunzTarPerm extractEntry src/locale/bn.js
+765 silly gunzTarPerm extractEntry src/locale/tzm-latn.js
+766 silly gunzTarPerm extractEntry src/locale/bg.js
+767 silly gunzTarPerm extractEntry src/locale/tzm.js
+768 silly gunzTarPerm extractEntry src/locale/be.js
+769 silly gunzTarPerm extractEntry src/locale/uk.js
+770 silly gunzTarPerm extractEntry src/locale/az.js
+771 silly gunzTarPerm extractEntry src/locale/uz.js
+772 silly gunzTarPerm extractEntry src/locale/ar.js
+773 silly gunzTarPerm extractEntry src/locale/vi.js
+774 silly gunzTarPerm extractEntry src/locale/ar-tn.js
+775 silly gunzTarPerm extractEntry src/locale/x-pseudo.js
+776 silly gunzTarPerm extractEntry src/locale/ar-sa.js
+777 silly gunzTarPerm extractEntry src/locale/zh-cn.js
+778 silly gunzTarPerm extractEntry src/locale/ar-ma.js
+779 silly gunzTarPerm extractEntry src/locale/zh-tw.js
+780 silly gunzTarPerm extractEntry src/locale/ka.js
+781 silly gunzTarPerm extractEntry locale/af.js
+782 silly gunzTarPerm extractEntry locale/it.js
+783 silly gunzTarPerm extractEntry locale/ja.js
+784 silly gunzTarPerm extractEntry locale/jv.js
+785 silly gunzTarPerm extractEntry locale/is.js
+786 silly gunzTarPerm extractEntry locale/kk.js
+787 silly gunzTarPerm extractEntry locale/km.js
+788 silly gunzTarPerm extractEntry locale/ko.js
+789 silly gunzTarPerm extractEntry locale/ky.js
+790 silly gunzTarPerm extractEntry locale/lb.js
+791 silly gunzTarPerm extractEntry locale/id.js
+792 silly gunzTarPerm extractEntry locale/lo.js
+793 silly gunzTarPerm extractEntry locale/hy-am.js
+794 silly gunzTarPerm extractEntry locale/lt.js
+795 silly gunzTarPerm extractEntry locale/hu.js
+796 silly gunzTarPerm extractEntry locale/lv.js
+797 silly gunzTarPerm extractEntry locale/hr.js
+798 silly gunzTarPerm extractEntry locale/me.js
+799 silly gunzTarPerm extractEntry locale/hi.js
+800 silly gunzTarPerm extractEntry locale/mk.js
+801 silly gunzTarPerm extractEntry locale/he.js
+802 silly gunzTarPerm extractEntry locale/ml.js
+803 silly gunzTarPerm extractEntry locale/gl.js
+804 silly gunzTarPerm extractEntry locale/mr.js
+805 silly gunzTarPerm extractEntry locale/gd.js
+806 silly gunzTarPerm extractEntry locale/ms-my.js
+807 silly gunzTarPerm extractEntry locale/fy.js
+808 silly gunzTarPerm extractEntry locale/ms.js
+809 silly gunzTarPerm extractEntry locale/fr.js
+810 silly gunzTarPerm extractEntry locale/my.js
+811 silly gunzTarPerm extractEntry locale/fr-ch.js
+812 silly gunzTarPerm extractEntry locale/nb.js
+813 silly gunzTarPerm extractEntry locale/fr-ca.js
+814 silly gunzTarPerm extractEntry locale/ne.js
+815 silly gunzTarPerm extractEntry locale/fo.js
+816 silly gunzTarPerm extractEntry locale/nl.js
+817 silly gunzTarPerm extractEntry locale/fi.js
+818 silly gunzTarPerm extractEntry locale/nn.js
+819 silly gunzTarPerm extractEntry locale/fa.js
+820 silly gunzTarPerm extractEntry locale/pa-in.js
+821 silly gunzTarPerm extractEntry locale/eu.js
+822 silly gunzTarPerm extractEntry locale/pl.js
+823 silly gunzTarPerm extractEntry locale/et.js
+824 silly gunzTarPerm extractEntry locale/pt-br.js
+825 silly gunzTarPerm extractEntry locale/es.js
+826 silly gunzTarPerm extractEntry locale/pt.js
+827 silly gunzTarPerm extractEntry locale/es-do.js
+828 silly gunzTarPerm extractEntry locale/ro.js
+829 silly gunzTarPerm extractEntry locale/eo.js
+830 silly gunzTarPerm extractEntry locale/ru.js
+831 silly gunzTarPerm extractEntry locale/en-nz.js
+832 silly gunzTarPerm extractEntry locale/se.js
+833 silly gunzTarPerm extractEntry locale/en-ie.js
+834 silly gunzTarPerm extractEntry locale/si.js
+835 silly gunzTarPerm extractEntry locale/en-gb.js
+836 silly gunzTarPerm extractEntry locale/sk.js
+837 silly gunzTarPerm extractEntry locale/en-ca.js
+838 silly gunzTarPerm extractEntry locale/sl.js
+839 silly gunzTarPerm extractEntry locale/en-au.js
+840 silly gunzTarPerm extractEntry locale/sq.js
+841 silly gunzTarPerm extractEntry locale/el.js
+842 silly gunzTarPerm extractEntry locale/sr-cyrl.js
+843 silly gunzTarPerm extractEntry locale/dv.js
+844 silly gunzTarPerm extractEntry locale/sr.js
+845 silly gunzTarPerm extractEntry locale/de.js
+846 silly gunzTarPerm extractEntry locale/ss.js
+847 silly gunzTarPerm extractEntry locale/de-at.js
+848 silly gunzTarPerm extractEntry locale/sv.js
+849 silly gunzTarPerm extractEntry locale/da.js
+850 silly gunzTarPerm extractEntry locale/sw.js
+851 silly gunzTarPerm extractEntry locale/cy.js
+852 silly gunzTarPerm extractEntry locale/ta.js
+853 silly gunzTarPerm extractEntry locale/cv.js
+854 silly gunzTarPerm extractEntry locale/te.js
+855 silly gunzTarPerm extractEntry locale/cs.js
+856 silly gunzTarPerm extractEntry locale/th.js
+857 silly gunzTarPerm extractEntry locale/ca.js
+858 silly gunzTarPerm extractEntry locale/tl-ph.js
+859 silly gunzTarPerm extractEntry locale/bs.js
+860 silly gunzTarPerm extractEntry locale/tlh.js
+861 silly gunzTarPerm extractEntry locale/br.js
+862 silly gunzTarPerm extractEntry locale/tr.js
+863 silly gunzTarPerm extractEntry locale/bo.js
+864 silly gunzTarPerm extractEntry locale/tzl.js
+865 silly gunzTarPerm extractEntry locale/bn.js
+866 silly gunzTarPerm extractEntry locale/tzm-latn.js
+867 silly gunzTarPerm extractEntry locale/bg.js
+868 silly gunzTarPerm extractEntry locale/tzm.js
+869 silly gunzTarPerm extractEntry locale/be.js
+870 silly gunzTarPerm extractEntry locale/uk.js
+871 silly gunzTarPerm extractEntry locale/az.js
+872 silly gunzTarPerm extractEntry locale/uz.js
+873 silly gunzTarPerm extractEntry locale/ar.js
+874 silly gunzTarPerm extractEntry locale/vi.js
+875 silly gunzTarPerm extractEntry locale/ar-tn.js
+876 silly gunzTarPerm extractEntry locale/x-pseudo.js
+877 silly gunzTarPerm extractEntry locale/ar-sa.js
+878 silly gunzTarPerm extractEntry locale/zh-cn.js
+879 silly gunzTarPerm extractEntry locale/ar-ma.js
+880 silly gunzTarPerm extractEntry locale/zh-tw.js
+881 silly gunzTarPerm extractEntry locale/ka.js
+882 silly gunzTarPerm extractEntry CHANGELOG.md
+883 silly gunzTarPerm extractEntry min/locales.js
+884 silly gunzTarPerm extractEntry min/locales.min.js
+885 silly gunzTarPerm extractEntry min/moment-with-locales.js
+886 silly gunzTarPerm extractEntry min/moment-with-locales.min.js
+887 silly gunzTarPerm extractEntry min/moment.min.js
+888 verbose write writing to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/moment/package.json
+889 info preinstall moment@2.14.1
+890 verbose readDependencies loading dependencies from /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/moment/package.json
+891 verbose readDependencies loading dependencies from /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/moment/package.json
+892 silly install resolved []
+893 verbose about to build /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/moment
+894 info build /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/moment
+895 info linkStuff moment@2.14.1
+896 silly linkStuff moment@2.14.1 has /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules as its parent node_modules
+897 verbose linkBins moment@2.14.1
+898 verbose linkMans moment@2.14.1
+899 verbose rebuildBundles moment@2.14.1
+900 info install moment@2.14.1
+901 info postinstall moment@2.14.1
+902 verbose unlock done using /Users/Admin/.npm/_locks/moment-55b2b4a6863a1997.lock for /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/moment
+903 http 304 https://registry.npmjs.org/chartjs-color-string
+904 verbose headers { date: 'Sun, 21 Aug 2016 07:46:46 GMT',
+904 verbose headers   via: '1.1 varnish',
+904 verbose headers   'cache-control': 'max-age=300',
+904 verbose headers   etag: '"4Z2R1EDX411FVZW0QDF3M3ZZU"',
+904 verbose headers   age: '0',
+904 verbose headers   connection: 'keep-alive',
+904 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+904 verbose headers   'x-cache': 'MISS',
+904 verbose headers   'x-cache-hits': '0',
+904 verbose headers   'x-timer': 'S1471765606.410072,VS0,VE1020',
+904 verbose headers   vary: 'Accept-Encoding' }
+905 silly get cb [ 304,
+905 silly get   { date: 'Sun, 21 Aug 2016 07:46:46 GMT',
+905 silly get     via: '1.1 varnish',
+905 silly get     'cache-control': 'max-age=300',
+905 silly get     etag: '"4Z2R1EDX411FVZW0QDF3M3ZZU"',
+905 silly get     age: '0',
+905 silly get     connection: 'keep-alive',
+905 silly get     'x-served-by': 'cache-sin6924-SIN',
+905 silly get     'x-cache': 'MISS',
+905 silly get     'x-cache-hits': '0',
+905 silly get     'x-timer': 'S1471765606.410072,VS0,VE1020',
+905 silly get     vary: 'Accept-Encoding' } ]
+906 verbose etag https://registry.npmjs.org/chartjs-color-string from cache
+907 verbose get saving chartjs-color-string to /Users/Admin/.npm/registry.npmjs.org/chartjs-color-string/.cache.json
+908 verbose correctMkdir /Users/Admin/.npm correctMkdir not in flight; initializing
+909 silly addNameRange number 2 { name: 'chartjs-color-string',
+909 silly addNameRange   range: '>=0.4.0 <0.5.0',
+909 silly addNameRange   hasData: true }
+910 silly addNameRange versions [ 'chartjs-color-string', [ '0.4.0' ] ]
+911 silly addNamed chartjs-color-string@0.4.0
+912 verbose addNamed "0.4.0" is a plain semver version for chartjs-color-string
+913 silly cache afterAdd chartjs-color-string@0.4.0
+914 verbose afterAdd /Users/Admin/.npm/chartjs-color-string/0.4.0/package/package.json not in flight; writing
+915 verbose correctMkdir /Users/Admin/.npm correctMkdir not in flight; initializing
+916 verbose afterAdd /Users/Admin/.npm/chartjs-color-string/0.4.0/package/package.json written
+917 silly install resolved [ { name: 'color-convert',
+917 silly install resolved     description: 'Plain color conversion functions',
+917 silly install resolved     version: '0.5.3',
+917 silly install resolved     author: { name: 'Heather Arthur', email: 'fayearthur@gmail.com' },
+917 silly install resolved     repository:
+917 silly install resolved      { type: 'git',
+917 silly install resolved        url: 'git+ssh://git@github.com/harthur/color-convert.git' },
+917 silly install resolved     devDependencies: {},
+917 silly install resolved     scripts: { test: 'node test/basic.js' },
+917 silly install resolved     keywords: [ 'color', 'colour', 'rgb' ],
+917 silly install resolved     gitHead: 'c05e34eb75de749faf15f0e362147a6add373625',
+917 silly install resolved     bugs: { url: 'https://github.com/harthur/color-convert/issues' },
+917 silly install resolved     homepage: 'https://github.com/harthur/color-convert#readme',
+917 silly install resolved     _id: 'color-convert@0.5.3',
+917 silly install resolved     _shasum: 'bdb6c69ce660fadffe0b0007cc447e1b9f7282bd',
+917 silly install resolved     _from: 'color-convert@>=0.5.0 <0.6.0',
+917 silly install resolved     _npmVersion: '2.9.0',
+917 silly install resolved     _nodeVersion: '2.0.1',
+917 silly install resolved     _npmUser: { name: 'moox', email: 'm@moox.io' },
+917 silly install resolved     maintainers: [ [Object], [Object] ],
+917 silly install resolved     dist:
+917 silly install resolved      { shasum: 'bdb6c69ce660fadffe0b0007cc447e1b9f7282bd',
+917 silly install resolved        tarball: 'https://registry.npmjs.org/color-convert/-/color-convert-0.5.3.tgz' },
+917 silly install resolved     directories: {},
+917 silly install resolved     _resolved: 'https://registry.npmjs.org/color-convert/-/color-convert-0.5.3.tgz',
+917 silly install resolved     readme: 'ERROR: No README data found!' },
+917 silly install resolved   { name: 'chartjs-color-string',
+917 silly install resolved     description: 'Parser and generator for CSS color strings',
+917 silly install resolved     version: '0.4.0',
+917 silly install resolved     author: { name: 'Heather Arthur', email: 'fayearthur@gmail.com' },
+917 silly install resolved     contributors: [ [Object], [Object] ],
+917 silly install resolved     repository:
+917 silly install resolved      { type: 'git',
+917 silly install resolved        url: 'git+ssh://git@github.com/harthur/color-string.git' },
+917 silly install resolved     scripts: { test: 'node test/basic.js' },
+917 silly install resolved     license: 'MIT',
+917 silly install resolved     main: './color-string',
+917 silly install resolved     dependencies: { 'color-name': '^1.0.0' },
+917 silly install resolved     devDependencies: {},
+917 silly install resolved     keywords: [ 'color', 'colour', 'rgb', 'css' ],
+917 silly install resolved     gitHead: '6cde16dc58671722201e671d5deecb950f94cb63',
+917 silly install resolved     bugs: { url: 'https://github.com/harthur/color-string/issues' },
+917 silly install resolved     homepage: 'https://github.com/harthur/color-string#readme',
+917 silly install resolved     _id: 'chartjs-color-string@0.4.0',
+917 silly install resolved     _shasum: '57748d4530ae28d8db0a5492182ba06dfdf2f468',
+917 silly install resolved     _from: 'chartjs-color-string@>=0.4.0 <0.5.0',
+917 silly install resolved     _npmVersion: '3.6.0',
+917 silly install resolved     _nodeVersion: '5.6.0',
+917 silly install resolved     _npmUser: { name: 'etimberg', email: 'evert.timberg+npm@gmail.com' },
+917 silly install resolved     dist:
+917 silly install resolved      { shasum: '57748d4530ae28d8db0a5492182ba06dfdf2f468',
+917 silly install resolved        tarball: 'https://registry.npmjs.org/chartjs-color-string/-/chartjs-color-string-0.4.0.tgz' },
+917 silly install resolved     maintainers: [ [Object] ],
+917 silly install resolved     _npmOperationalInternal:
+917 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+917 silly install resolved        tmp: 'tmp/chartjs-color-string-0.4.0.tgz_1461969577496_0.03336976608261466' },
+917 silly install resolved     directories: {},
+917 silly install resolved     _resolved: 'https://registry.npmjs.org/chartjs-color-string/-/chartjs-color-string-0.4.0.tgz',
+917 silly install resolved     readme: 'ERROR: No README data found!' } ]
+918 info install color-convert@0.5.3 into /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color
+919 info install chartjs-color-string@0.4.0 into /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color
+920 info installOne color-convert@0.5.3
+921 verbose installOne of color-convert to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color not in flight; installing
+922 verbose correctMkdir /Users/Admin/.npm/_locks correctMkdir not in flight; initializing
+923 info installOne chartjs-color-string@0.4.0
+924 verbose installOne of chartjs-color-string to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color not in flight; installing
+925 verbose correctMkdir /Users/Admin/.npm/_locks correctMkdir not in flight; initializing
+926 verbose lock using /Users/Admin/.npm/_locks/color-convert-b3017672070fe568.lock for /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/color-convert
+927 silly install write writing color-convert 0.5.3 to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/color-convert
+928 verbose lock using /Users/Admin/.npm/_locks/chartjs-color-string-c35681a6ed4e86d3.lock for /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string
+929 silly install write writing chartjs-color-string 0.4.0 to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string
+930 verbose unbuild node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/color-convert
+931 verbose unbuild node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string
+932 silly gentlyRm /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/color-convert is being purged from base /Users/Admin/TMS-test1
+933 verbose gentlyRm don't care about contents; nuking /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/color-convert
+934 verbose tar unpack /Users/Admin/.npm/color-convert/0.5.3/package.tgz
+935 verbose tar unpacking to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/color-convert
+936 silly gentlyRm /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/color-convert is being purged
+937 verbose gentlyRm don't care about contents; nuking /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/color-convert
+938 silly gunzTarPerm modes [ '755', '644' ]
+939 silly gentlyRm /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string is being purged from base /Users/Admin/TMS-test1
+940 verbose gentlyRm don't care about contents; nuking /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string
+941 verbose tar unpack /Users/Admin/.npm/chartjs-color-string/0.4.0/package.tgz
+942 verbose tar unpacking to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string
+943 silly gentlyRm /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string is being purged
+944 verbose gentlyRm don't care about contents; nuking /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string
+945 silly gunzTarPerm modes [ '755', '644' ]
+946 silly gunzTarPerm extractEntry package.json
+947 silly gunzTarPerm extractEntry README.md
+948 silly gunzTarPerm extractEntry LICENSE
+949 silly gunzTarPerm extractEntry conversions.js
+950 silly gunzTarPerm extractEntry index.js
+951 silly gunzTarPerm extractEntry .travis.yml
+952 silly gunzTarPerm extractEntry CHANGELOG.md
+953 silly gunzTarPerm extractEntry component.json
+954 silly gunzTarPerm extractEntry test/basic.js
+955 silly gunzTarPerm extractEntry test/speed.js
+956 silly gunzTarPerm extractEntry package.json
+957 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+958 verbose write writing to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/color-convert/package.json
+959 silly gunzTarPerm extractEntry README.md
+960 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+961 silly gunzTarPerm extractEntry LICENSE
+962 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+963 info preinstall color-convert@0.5.3
+964 verbose readDependencies loading dependencies from /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/color-convert/package.json
+965 silly gunzTarPerm extractEntry color-string.js
+966 silly gunzTarPerm modified mode [ 'color-string.js', 438, 420 ]
+967 silly gunzTarPerm extractEntry .travis.yml
+968 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+969 verbose readDependencies loading dependencies from /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/color-convert/package.json
+970 silly install resolved []
+971 verbose about to build /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/color-convert
+972 info build /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/color-convert
+973 silly gunzTarPerm extractEntry CHANGELOG.md
+974 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 438, 420 ]
+975 silly gunzTarPerm extractEntry test/basic.js
+976 silly gunzTarPerm modified mode [ 'test/basic.js', 438, 420 ]
+977 info linkStuff color-convert@0.5.3
+978 silly linkStuff color-convert@0.5.3 has /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules as its parent node_modules
+979 verbose linkBins color-convert@0.5.3
+980 verbose linkMans color-convert@0.5.3
+981 verbose rebuildBundles color-convert@0.5.3
+982 info install color-convert@0.5.3
+983 info postinstall color-convert@0.5.3
+984 verbose unlock done using /Users/Admin/.npm/_locks/color-convert-b3017672070fe568.lock for /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/color-convert
+985 verbose write writing to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/package.json
+986 info preinstall chartjs-color-string@0.4.0
+987 verbose readDependencies loading dependencies from /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/package.json
+988 silly prepareForInstallMany adding color-name@^1.0.0 from chartjs-color-string dependencies
+989 verbose readDependencies loading dependencies from /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/package.json
+990 silly cache add args [ 'color-name@^1.0.0', null ]
+991 verbose cache add spec color-name@^1.0.0
+992 silly cache add parsed spec Result {
+992 silly cache add   raw: 'color-name@^1.0.0',
+992 silly cache add   scope: null,
+992 silly cache add   name: 'color-name',
+992 silly cache add   rawSpec: '^1.0.0',
+992 silly cache add   spec: '>=1.0.0 <2.0.0',
+992 silly cache add   type: 'range' }
+993 silly addNamed color-name@>=1.0.0 <2.0.0
+994 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for color-name
+995 silly addNameRange { name: 'color-name', range: '>=1.0.0 <2.0.0', hasData: false }
+996 silly mapToRegistry name color-name
+997 silly mapToRegistry using default registry
+998 silly mapToRegistry registry https://registry.npmjs.org/
+999 silly mapToRegistry data Result {
+999 silly mapToRegistry   raw: 'color-name',
+999 silly mapToRegistry   scope: null,
+999 silly mapToRegistry   name: 'color-name',
+999 silly mapToRegistry   rawSpec: '',
+999 silly mapToRegistry   spec: 'latest',
+999 silly mapToRegistry   type: 'tag' }
+1000 silly mapToRegistry uri https://registry.npmjs.org/color-name
+1001 verbose addNameRange registry:https://registry.npmjs.org/color-name not in flight; fetching
+1002 verbose request uri https://registry.npmjs.org/color-name
+1003 verbose request no auth needed
+1004 info attempt registry request try #1 at 2:46:47 PM
+1005 verbose etag "9XAYPUAP978784IWZSSO4BOH6"
+1006 http request GET https://registry.npmjs.org/color-name
+1007 http 304 https://registry.npmjs.org/color-name
+1008 verbose headers { date: 'Sun, 21 Aug 2016 07:46:47 GMT',
+1008 verbose headers   via: '1.1 varnish',
+1008 verbose headers   'cache-control': 'max-age=300',
+1008 verbose headers   etag: '"9XAYPUAP978784IWZSSO4BOH6"',
+1008 verbose headers   age: '182',
+1008 verbose headers   connection: 'keep-alive',
+1008 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+1008 verbose headers   'x-cache': 'HIT',
+1008 verbose headers   'x-cache-hits': '1',
+1008 verbose headers   'x-timer': 'S1471765607.673591,VS0,VE0',
+1008 verbose headers   vary: 'Accept-Encoding' }
+1009 silly get cb [ 304,
+1009 silly get   { date: 'Sun, 21 Aug 2016 07:46:47 GMT',
+1009 silly get     via: '1.1 varnish',
+1009 silly get     'cache-control': 'max-age=300',
+1009 silly get     etag: '"9XAYPUAP978784IWZSSO4BOH6"',
+1009 silly get     age: '182',
+1009 silly get     connection: 'keep-alive',
+1009 silly get     'x-served-by': 'cache-sin6920-SIN',
+1009 silly get     'x-cache': 'HIT',
+1009 silly get     'x-cache-hits': '1',
+1009 silly get     'x-timer': 'S1471765607.673591,VS0,VE0',
+1009 silly get     vary: 'Accept-Encoding' } ]
+1010 verbose etag https://registry.npmjs.org/color-name from cache
+1011 verbose get saving color-name to /Users/Admin/.npm/registry.npmjs.org/color-name/.cache.json
+1012 verbose correctMkdir /Users/Admin/.npm correctMkdir not in flight; initializing
+1013 silly addNameRange number 2 { name: 'color-name', range: '>=1.0.0 <2.0.0', hasData: true }
+1014 silly addNameRange versions [ 'color-name',
+1014 silly addNameRange   [ '0.0.1', '0.0.2', '1.0.0', '1.0.1', '1.1.0', '1.1.1' ] ]
+1015 silly addNamed color-name@1.1.1
+1016 verbose addNamed "1.1.1" is a plain semver version for color-name
+1017 silly cache afterAdd color-name@1.1.1
+1018 verbose afterAdd /Users/Admin/.npm/color-name/1.1.1/package/package.json not in flight; writing
+1019 verbose correctMkdir /Users/Admin/.npm correctMkdir not in flight; initializing
+1020 verbose afterAdd /Users/Admin/.npm/color-name/1.1.1/package/package.json written
+1021 silly install resolved [ { name: 'color-name',
+1021 silly install resolved     version: '1.1.1',
+1021 silly install resolved     description: 'A list of color names and it’s values',
+1021 silly install resolved     main: 'index.js',
+1021 silly install resolved     scripts: { test: 'node test.js' },
+1021 silly install resolved     files: [ 'index.js' ],
+1021 silly install resolved     repository:
+1021 silly install resolved      { type: 'git',
+1021 silly install resolved        url: 'git+ssh://git@github.com/dfcreative/color-name.git' },
+1021 silly install resolved     keywords: [ 'color-name', 'color', 'color-keyword', 'keyword' ],
+1021 silly install resolved     author: { name: 'DY', email: 'dfcreative@gmail.com' },
+1021 silly install resolved     license: 'MIT',
+1021 silly install resolved     bugs: { url: 'https://github.com/dfcreative/color-name/issues' },
+1021 silly install resolved     homepage: 'https://github.com/dfcreative/color-name',
+1021 silly install resolved     gitHead: 'b47de1bf75da523d6d6061a41f7f0c9bb7c213bf',
+1021 silly install resolved     _id: 'color-name@1.1.1',
+1021 silly install resolved     _shasum: '4b1415304cf50028ea81643643bd82ea05803689',
+1021 silly install resolved     _from: 'color-name@>=1.0.0 <2.0.0',
+1021 silly install resolved     _npmVersion: '3.3.12',
+1021 silly install resolved     _nodeVersion: '5.3.0',
+1021 silly install resolved     _npmUser: { name: 'dfcreative', email: 'df.creative@gmail.com' },
+1021 silly install resolved     maintainers: [ [Object] ],
+1021 silly install resolved     dist:
+1021 silly install resolved      { shasum: '4b1415304cf50028ea81643643bd82ea05803689',
+1021 silly install resolved        tarball: 'https://registry.npmjs.org/color-name/-/color-name-1.1.1.tgz' },
+1021 silly install resolved     directories: {},
+1021 silly install resolved     _resolved: 'https://registry.npmjs.org/color-name/-/color-name-1.1.1.tgz',
+1021 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1022 info install color-name@1.1.1 into /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string
+1023 info installOne color-name@1.1.1
+1024 verbose installOne of color-name to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string not in flight; installing
+1025 verbose correctMkdir /Users/Admin/.npm/_locks correctMkdir not in flight; initializing
+1026 verbose lock using /Users/Admin/.npm/_locks/color-name-7c85aa53f16d1c25.lock for /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/node_modules/color-name
+1027 silly install write writing color-name 1.1.1 to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/node_modules/color-name
+1028 verbose unbuild node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/node_modules/color-name
+1029 silly gentlyRm /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/node_modules/color-name is being purged from base /Users/Admin/TMS-test1
+1030 verbose gentlyRm don't care about contents; nuking /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/node_modules/color-name
+1031 verbose tar unpack /Users/Admin/.npm/color-name/1.1.1/package.tgz
+1032 verbose tar unpacking to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/node_modules/color-name
+1033 silly gentlyRm /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/node_modules/color-name is being purged
+1034 verbose gentlyRm don't care about contents; nuking /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/node_modules/color-name
+1035 silly gunzTarPerm modes [ '755', '644' ]
+1036 silly gunzTarPerm extractEntry package.json
+1037 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+1038 silly gunzTarPerm extractEntry README.md
+1039 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+1040 silly gunzTarPerm extractEntry LICENSE
+1041 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+1042 silly gunzTarPerm extractEntry index.js
+1043 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+1044 verbose write writing to /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/node_modules/color-name/package.json
+1045 info preinstall color-name@1.1.1
+1046 verbose readDependencies loading dependencies from /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/node_modules/color-name/package.json
+1047 verbose readDependencies loading dependencies from /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/node_modules/color-name/package.json
+1048 silly install resolved []
+1049 verbose about to build /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/node_modules/color-name
+1050 info build /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/node_modules/color-name
+1051 info linkStuff color-name@1.1.1
+1052 silly linkStuff color-name@1.1.1 has /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/node_modules as its parent node_modules
+1053 verbose linkBins color-name@1.1.1
+1054 verbose linkMans color-name@1.1.1
+1055 verbose rebuildBundles color-name@1.1.1
+1056 info install color-name@1.1.1
+1057 info postinstall color-name@1.1.1
+1058 verbose unlock done using /Users/Admin/.npm/_locks/color-name-7c85aa53f16d1c25.lock for /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string/node_modules/color-name
+1059 verbose about to build /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string
+1060 info build /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string
+1061 info linkStuff chartjs-color-string@0.4.0
+1062 silly linkStuff chartjs-color-string@0.4.0 has /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules as its parent node_modules
+1063 verbose linkBins chartjs-color-string@0.4.0
+1064 verbose linkMans chartjs-color-string@0.4.0
+1065 verbose rebuildBundles chartjs-color-string@0.4.0
+1066 verbose rebuildBundles [ 'color-name' ]
+1067 info install chartjs-color-string@0.4.0
+1068 info postinstall chartjs-color-string@0.4.0
+1069 verbose unlock done using /Users/Admin/.npm/_locks/chartjs-color-string-c35681a6ed4e86d3.lock for /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color/node_modules/chartjs-color-string
+1070 verbose about to build /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color
+1071 info build /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color
+1072 info linkStuff chartjs-color@1.0.22
+1073 silly linkStuff chartjs-color@1.0.22 has /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules as its parent node_modules
+1074 verbose linkBins chartjs-color@1.0.22
+1075 verbose linkMans chartjs-color@1.0.22
+1076 verbose rebuildBundles chartjs-color@1.0.22
+1077 verbose rebuildBundles [ 'chartjs-color-string', 'color-convert' ]
+1078 info install chartjs-color@1.0.22
+1079 info postinstall chartjs-color@1.0.22
+1080 verbose unlock done using /Users/Admin/.npm/_locks/chartjs-color-0266574a30bc12e8.lock for /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js/node_modules/chartjs-color
+1081 verbose about to build /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js
+1082 info build /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js
+1083 info linkStuff chart.js@2.1.3
+1084 silly linkStuff chart.js@2.1.3 has /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules as its parent node_modules
+1085 verbose linkBins chart.js@2.1.3
+1086 verbose linkMans chart.js@2.1.3
+1087 verbose rebuildBundles chart.js@2.1.3
+1088 verbose rebuildBundles [ 'chartjs-color', 'moment' ]
+1089 info install chart.js@2.1.3
+1090 info postinstall chart.js@2.1.3
+1091 verbose unlock done using /Users/Admin/.npm/_locks/chart-js-c80b20de19bba349.lock for /Users/Admin/TMS-test1/node_modules/ng2-charts/node_modules/chart.js
+1092 verbose about to build /Users/Admin/TMS-test1/node_modules/ng2-charts
+1093 info build /Users/Admin/TMS-test1/node_modules/ng2-charts
+1094 info linkStuff ng2-charts@1.1.0
+1095 silly linkStuff ng2-charts@1.1.0 has /Users/Admin/TMS-test1/node_modules as its parent node_modules
+1096 verbose linkBins ng2-charts@1.1.0
+1097 verbose linkMans ng2-charts@1.1.0
+1098 verbose rebuildBundles ng2-charts@1.1.0
+1099 verbose rebuildBundles [ 'chart.js' ]
+1100 info install ng2-charts@1.1.0
+1101 info postinstall ng2-charts@1.1.0
+1102 verbose unlock done using /Users/Admin/.npm/_locks/ng2-charts-6b8dac5322ec5374.lock for /Users/Admin/TMS-test1/node_modules/ng2-charts
+1103 verbose validateInstall loading /Users/Admin/TMS-test1/package.json for validation
+1104 verbose stack Error: The package @angular/common@2.0.0-rc.4 does not satisfy its siblings' peerDependencies requirements!
+1104 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+1104 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+1104 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+1104 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+1104 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1104 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+1104 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1104 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+1104 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1104 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+1105 verbose cwd /Users/Admin/TMS-test1
+1106 error Darwin 15.2.0
+1107 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "ng2-charts" "--save"
+1108 error node v4.4.7
+1109 error npm  v2.15.8
+1110 error code EPEERINVALID
+1111 error peerinvalid The package @angular/common@2.0.0-rc.4 does not satisfy its siblings' peerDependencies requirements!
+1111 error peerinvalid Peer @angular/platform-browser@2.0.0-rc.4 wants @angular/common@^2.0.0-rc.4
+1111 error peerinvalid Peer @angular/platform-browser-dynamic@2.0.0-rc.4 wants @angular/common@^2.0.0-rc.4
+1111 error peerinvalid Peer @angular/forms@0.2.0 wants @angular/common@^2.0.0-rc.4
+1111 error peerinvalid Peer ionic-angular@2.0.0-beta.11 wants @angular/common@2.0.0-rc.4
+1111 error peerinvalid Peer angularfire2@2.0.0-beta.2 wants @angular/common@2.0.0-rc.2
+1111 error peerinvalid Peer ng2-translate@2.2.2 wants @angular/common@^2.0.0-rc.3
+1111 error peerinvalid Peer ng2-charts@1.1.0 wants @angular/common@^2.0.0-rc.1
+1112 verbose exit [ 1, true ]

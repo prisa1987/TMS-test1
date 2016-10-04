@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-navbar primary>
+        <button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>{{ "Select Date" | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-item>
+        <ion-label> From Date </ion-label>
+        <ion-datetime displayFormat="YYYY MMM DD" [(ngModel)]="beginDate"></ion-datetime>
+    </ion-item>
+
+      <ion-item>
+        <ion-label> To Date </ion-label>
+        <ion-datetime displayFormat="YYYY MMM DD" [(ngModel)]="endDate"></ion-datetime>
+    </ion-item>
+
+    <button class="button button-positive button-block" (click)="navigateToReportData()">
+             Confirm
+    </button>
+
+</ion-content>

@@ -1,0 +1,29 @@
+.user-header {
+    padding: 5px !important;
+    background-color: #003B6F !important;
+}
+
+.user-header .user-image {
+    text-align: center;
+}
+
+.user-header .user-image img {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 5vh;
+}
+
+.user-header .user-name {
+    text-align: center;
+    color: white;
+}
+
+#buttonLogout {
+	text-align: left;
+	width: 100%;
+	margin: 0px;
+}
+
+#buttonLogout:hover {
+	color: white;
+}

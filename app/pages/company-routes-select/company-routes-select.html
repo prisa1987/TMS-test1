@@ -1,0 +1,31 @@
+<ion-header>
+    <ion-navbar primary hideBackButton>
+        <button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-nav-back-button class="button-clear" (click)="back()">
+            <i class="ion-arrow-left-c"></i> {{ "Back" | translate }}
+        </ion-nav-back-button>
+        <ion-title>{{ "Routes" | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-list>
+        <ion-item-sliding class="item-remove-animate item-icon-right" *ngFor="let route of routes | async">
+            <ion-item (click)="navigateToRouteStop(route)">
+                <ion-label>{{route.name}}
+                    <i class="icon ion-chevron-right icon-accessory"></i>
+                </ion-label>
+            </ion-item>
+            <ion-item-options>
+                <button class="button-energized" (click)="navigateToRenameRoute(route)">Rename</button>
+                <button class="button-assertive" (click)="removeRoute(route)">Delete</button>
+            </ion-item-options>
+        </ion-item-sliding>
+    </ion-list>
+</ion-content>
+<ion-footer-bar class="bar bar-footer">
+    <a class="button fullButton bottom-big button-positive" (click)="navigateToCreatNewRoute()">
+      {{ "Add" | translate }}
+    </a>
+</ion-footer-bar>
